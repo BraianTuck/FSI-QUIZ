@@ -1,0 +1,1648 @@
+[
+    {
+        "pregunta": "La frase “Es un medio para entregar valor sin que el cliente asuma los riesgos y costos específicos” refiere a:",
+        "opciones": [
+            "La definición de Valor",
+            "La definición de una Cadena de Valor",
+            "La definición de Servicio",
+            "La definición de Proceso"
+        ],
+        "respuesta_correcta": "La definición de Servicio"
+    },
+    {
+        "pregunta": "Utilidad y Garantía son dos conceptos asociados a la definición de:",
+        "opciones": [
+            "Servicio",
+            "Valor",
+            "Proceso",
+            "Resultado"
+        ],
+        "respuesta_correcta": "Valor"
+    },
+    {
+        "pregunta": "Para alcanzar el concepto de 'Flow' en una cadena de producción, los procesos deben ajustarse a la demanda del cliente. Esto es característico de:",
+        "opciones": [
+            "Un sistema Push",
+            "Un sistema de producción variable",
+            "Un sistema Pull",
+            "Un sistema automatizado"
+        ],
+        "respuesta_correcta": "Un sistema Pull"
+    },
+    {
+        "pregunta": "El llamado 'triángulo de hierro' se basa en la interconexión entre 3 variables sobre las que se llevan adelante los proyectos. ¿Cuáles son estas variables?",
+        "opciones": [
+            "Costo, Valor, Calidad",
+            "Tiempo, Calidad, Alcance",
+            "Alcance, Costo, Tiempo",
+            "Velocidad, Calidad, Costo"
+        ],
+        "respuesta_correcta": "Alcance, Costo, Tiempo"
+    },
+    {
+        "pregunta": "Usted es gerente de tecnología en una empresa dedicada al desarrollo de microservicios para negocios de retail en línea. Esto requiere que sus equipos de desarrollo y soporte tengan que adaptarse rápidamente a las necesidades cambiantes de sus clientes. Usted necesita crear una cultura de trabajo adaptativo, con alto nivel de flexibilidad para absorber el ritmo cambiante impuesto por el mercado, donde la incertidumbre en el corto plazo es muy alta. ¿En qué marco entiende usted que debería basarse para lograrlo?",
+        "opciones": [
+            "CMMI",
+            "ISO 20000",
+            "Agile",
+            "COB"
+        ],
+        "respuesta_correcta": "Agile"
+    },
+    {
+        "pregunta": "Usted es responsable de llevar adelante un proyecto de desarrollo e implementación de una nueva aplicación desarrollada a medida. El cliente es una empresa que carece de un departamento de TI, por lo que confía en que usted sabrá asesorarlo en cómo cubrir sus necesidades a través de este proyecto. Su diagnóstico es que el cliente parte de un conjunto de necesidades pero que no tiene claro cómo las podría cubrir. En este tipo de escenario, usted debe decidir qué tipo de metodología se adapta mejor al proyecto:",
+        "opciones": [
+            "Metodología Ágil con iteraciones",
+            "Metodología de Cascada en etapas definidas",
+            "Mapeo de flujo de valor de Lean IT",
+            "Gestión de proyectos basada en el triángulo de hierro"
+        ],
+        "respuesta_correcta": "Metodología Ágil con iteraciones"
+    },
+    {
+        "pregunta": "Usted junto con su cliente están definiendo las condiciones de utilidad y garantía que un nuevo servicio deberá cumplir. Usted debe aclararle al cliente el alcance del término 'garantía' del servicio.",
+        "opciones": [
+            "Es el producto resultante de ejecutar una actividad.",
+            "Es la característica que asegura que el servicio cumple los requerimientos acordados de disponibilidad.",
+            "Es el mecanismo mediante el cual el proveedor garantiza un servicio sin fallas.",
+            "Es el mecanismo que asegura al cliente que, frente a una falla del servicio, el proveedor se hará cargo sin costos asociados."
+        ],
+        "respuesta_correcta": "Es la característica que asegura que el servicio cumple los requerimientos acordados de disponibilidad."
+    },
+    {
+        "pregunta": "Usted es el gerente de TI de una empresa de venta de servicios tecnológicos. En el último tiempo la competencia ha sobresalido en licitaciones por ser empresas con certificación en la gestión de servicios de TI, lo cual les ha dado una ventaja en el mercado. ¿Qué sugeriría usted para lograr estar en las mismas condiciones que la competencia?",
+        "opciones": [
+            "Procurar que la empresa le financie un curso y certificación personal en ISO 20000. Como gerente de tecnología, es un crédito favorable para la empresa que usted esté certificado.",
+            "Proponer un proyecto para certificar a la empresa en Lean IT. Esto le dará a la organización el posicionamiento necesario en el mercado por tratarse de un marco de referencia internacionalmente reconocido.",
+            "Proponer un proyecto para certificar a la empresa en ISO 20000. Esto le dará a la organización el posicionamiento necesario en el mercado por tratarse de una norma internacionalmente reconocida.",
+            "Implementar buenas prácticas de ISO 20000 y certificar al personal de TI en este estándar. Si todo el personal de TI está certificado, será más sencillo incorporar métodos que resulten en una ventaja competitiva."
+        ],
+        "respuesta_correcta": "Proponer un proyecto para certificar a la empresa en ISO 20000. Esto le dará a la organización el posicionamiento necesario en el mercado por tratarse de una norma internacionalmente reconocida."
+    },
+    {
+        "pregunta": "Usted es invitado a participar de la definición de objetivos de su empresa. En la primera reunión del comité, los participantes comienzan a proponer posibles objetivos para el período, para luego ser discutidos uno a uno por el equipo. Usted se da cuenta que el comité está dejando de lado las mejores prácticas a la hora de definir los objetivos de la organización, y propone aplicar ciertas herramientas que ayuden a que el flujo de definición de objetivos sea consistente con la organización, el mercado y las expectativas de las partes interesadas. Su propuesta debería ser:",
+        "opciones": [
+            "Evaluar el contexto de la organización como primer ejercicio. Definir los factores influyentes tanto internos como externos. Realizar un análisis de riesgos a partir de las amenazas y debilidades detectadas. A partir de los riesgos ponderados y las oportunidades detectadas, fijar los objetivos.",
+            "Evaluar los riesgos mediante un análisis FODA. Con las fortalezas detectadas, fijar los objetivos.",
+            "Evaluar el contexto de la organización como primer ejercicio. Definir los factores influyentes tanto internos como externos. Complementar con los resultados de un análisis de riesgos. A partir de los riesgos ponderados, fijar los objetivos.",
+            "Validar la viabilidad de los objetivos que propuso el comité a través de un análisis"
+        ],
+        "respuesta_correcta": "Evaluar el contexto de la organización como primer ejercicio. Definir los factores influyentes tanto internos como externos. Realizar un análisis de riesgos a partir de las amenazas y debilidades detectadas. A partir de los riesgos ponderados y las oportunidades detectadas, fijar los objetivos."
+    },
+    {
+        "pregunta": "En el marco Lean IT, el testing de una aplicación previo a la puesta en producción es considerado:",
+        "opciones": [
+            "Una actividad de valor agregado.",
+            "Una actividad sin valor agregado.",
+            "Una actividad sin valor agregado pero necesaria.",
+            "Desperdicio puro."
+        ],
+        "respuesta_correcta": "Una actividad sin valor agregado pero necesaria."
+    },
+    {
+        "pregunta": "Un ejemplo de datos sin procesar de una cadena nacional de tiendas de automóviles sería:",
+        "opciones": [
+            "Un promedio de 13 Toyotas se venden diariamente en Montevideo.",
+            "Aumento del 30 por ciento en las ventas de Toyota RAV 4 durante septiembre en Montevideo.",
+            "1 Toyota RAV4 vendido el 3 de marzo de 2020 en Buceo, Montevideo.",
+            "Todas las anteriores"
+        ],
+        "respuesta_correcta": "1 Toyota RAV4 vendido el 3 de marzo de 2020 en Buceo, Montevideo."
+    },
+    {
+        "pregunta": "Las empresas digitales responden a sus entornos mucho más rápidamente que las empresas tradicionales, dándoles más flexibilidad para sobrevivir en tiempos turbulentos",
+        "opciones": [
+            "True",
+            "False"
+        ],
+        "respuesta_correcta": "True"
+    },
+    {
+        "pregunta": "Los sociólogos estudian los sistemas de información con el objetivo de comprender:",
+        "opciones": [
+            "Cómo los sistemas afectan a individuos, grupos y organizaciones",
+            "Cómo los encargados de tomar decisiones humanas perciben y usan la información formal",
+            "Cómo los nuevos sistemas de información cambian las estructuras de control y costos dentro de la empresa",
+            "La producción de bienes digitales"
+        ],
+        "respuesta_correcta": "Cómo los sistemas afectan a individuos, grupos y organizaciones"
+    },
+    {
+        "pregunta": "Sobreproducción o subproducción de bienes y servicios, mala asignación de recursos y lentitud en los tiempos de respuesta son el resultado de que una empresa tenga:",
+        "opciones": [
+            "malas relaciones con los proveedores",
+            "malas relaciones con los clientes",
+            "Información inadecuada",
+            "excedente de información"
+        ],
+        "respuesta_correcta": "Información inadecuada"
+    },
+    {
+        "pregunta": "Una empresa debe invertir en un nuevo sistema de información para cumplir con requisitos legales. ¿Se puede decir que la empresa está invirtiendo para lograr qué objetivo comercial?",
+        "opciones": [
+            "Intimidad con el cliente",
+            "Excelencia operacional",
+            "Supervivencia",
+            "Informes mejorados"
+        ],
+        "respuesta_correcta": "Supervivencia"
+    },
+    {
+        "pregunta": "Un ejemplo de un activo complementario organizacional es:",
+        "opciones": [
+            "utilizar el modelo de negocio apropiado",
+            "un ambiente de trabajo colaborativo",
+            "leyes y regulaciones",
+            "todas las anteriores"
+        ],
+        "respuesta_correcta": "todas las anteriores"
+    },
+    {
+        "pregunta": "Los estudios han demostrado consistentemente que todas las empresas que invierten mayores cantidades en tecnología de la información reciben mayores beneficios que las empresas que invierten menos.",
+        "opciones": [
+            "True",
+            "False"
+        ],
+        "respuesta_correcta": "False"
+    },
+    {
+        "pregunta": "Una empresa que invierte en procesos comerciales eficientes está haciendo una inversión en activos organizativos complementarios.",
+        "opciones": [
+            "True",
+            "False"
+        ],
+        "respuesta_correcta": "True"
+    },
+    {
+        "pregunta": "Las tres actividades en un sistema de información que producen la información que usan las organizaciones para controlar las operaciones son",
+        "opciones": [
+            "recuperación de información, investigación y análisis",
+            "entrada, salida y retroalimentación",
+            "entrada, procesamiento y salida",
+            "análisis de datos, procesamiento y retroalimentación"
+        ],
+        "respuesta_correcta": "entrada, procesamiento y salida"
+    },
+    {
+        "pregunta": "¿Qué función comercial principal es responsable de mantener los registros de los empleados?",
+        "opciones": [
+            "ventas y marketing",
+            "recursos humanos",
+            "finanzas y contabilidad",
+            "fabricación y producción"
+        ],
+        "respuesta_correcta": "recursos humanos"
+    },
+    {
+        "pregunta": "El campo que se ocupa de los problemas de comportamiento, así como los problemas técnicos que rodean el desarrollo, el uso y el impacto de los sistemas de información utilizados por los gerentes y empleados de la empresa se llama:",
+        "opciones": [
+            "alfabetización en sistemas de información",
+            "arquitectura de sistemas de información",
+            "sistemas de información gerencial",
+            "infraestructura de tecnología de la información"
+        ],
+        "respuesta_correcta": "sistemas de información gerencial"
+    },
+    {
+        "pregunta": "El desarrollo de un nuevo producto, el cumplimiento de un pedido y la contratación de un nuevo empleado son ejemplos de procesos comerciales.",
+        "opciones": [
+            "True",
+            "False"
+        ],
+        "respuesta_correcta": "True"
+    },
+    {
+        "pregunta": "Las dimensiones de los sistemas de información son administración, organización y tecnología de la información.",
+        "opciones": [
+            "True",
+            "False"
+        ],
+        "respuesta_correcta": "True"
+    },
+    {
+        "pregunta": "Los sistemas de procesamiento de transacciones son los más utilizados por el nivel de alta gerencia de una organización.",
+        "opciones": [
+            "True",
+            "False"
+        ],
+        "respuesta_correcta": "False"
+    },
+    {
+        "pregunta": "La gestión operativa es responsable de dirigir las operaciones diarias del negocio y por lo tanto necesita información a nivel de transacción.",
+        "opciones": [
+            "True",
+            "False"
+        ],
+        "respuesta_correcta": "True"
+    },
+    {
+        "pregunta": "Un sistema de reserva de hotel es un ejemplo típico de un Sistema de Soporte a las Decisiones (DDS).",
+        "opciones": [
+            "True",
+            "False"
+        ],
+        "respuesta_correcta": "False"
+    },
+    {
+        "pregunta": "¿Cuál de los siguientes es un ejemplo de un proceso comercial interfuncional?",
+        "opciones": [
+            "identificación de clientes",
+            "crear un nuevo producto",
+            "ensamblar un producto",
+            "pagar a los acreedores"
+        ],
+        "respuesta_correcta": "crear un nuevo producto"
+    },
+    {
+        "pregunta": "Los Executive Support Systems (ESS) están diseñados principalmente para resolver problemas específicos rutinarios.",
+        "opciones": [
+            "True",
+            "False"
+        ],
+        "respuesta_correcta": "False"
+    },
+    {
+        "pregunta": "¿Qué tipo de sistema usaría para determinar los cinco proveedores con el peor registro en entrega de bienes a tiempo?",
+        "opciones": [
+            "ESS",
+            "TPS",
+            "MIS",
+            "DSS"
+        ],
+        "respuesta_correcta": "MIS"
+    },
+    {
+        "pregunta": "¿Cuál de los siguientes tipos de sistema ayuda a acelerar el flujo de información entre la firma y sus proveedores y clientes?",
+        "opciones": [
+            "intranet",
+            "extranet",
+            "KMS",
+            "TPS"
+        ],
+        "respuesta_correcta": "extranet"
+    },
+    {
+        "pregunta": "¿Los ESS están específicamente diseñados para servir a qué nivel de la organización?",
+        "opciones": [
+            "operacional",
+            "usuario final",
+            "gerencia media",
+            "alta gerencia"
+        ],
+        "respuesta_correcta": "alta gerencia"
+    },
+    {
+        "pregunta": "La compra o venta de bienes por Internet se llama:",
+        "opciones": [
+            "eBusiness",
+            "eCommerce",
+            "intranet",
+            "extranet"
+        ],
+        "respuesta_correcta": "eCommerce"
+    },
+    {
+        "pregunta": "El enlace principal entre los grupos de sistemas de información y el resto de la organización es un:",
+        "opciones": [
+            "programador",
+            "gerente de sistemas de información",
+            "analista de sistemas",
+            "gerente de tecnología"
+        ],
+        "respuesta_correcta": "analista de sistemas"
+    },
+    {
+        "pregunta": "Un sistema de procesamiento de transacciones es un sistema computarizado que realiza y registra diariamente transacciones de rutina necesarias para realizar negocios.",
+        "opciones": [
+            "True",
+            "False"
+        ],
+        "respuesta_correcta": "True"
+    },
+    {
+        "pregunta": "Desde el punto de vista de la economía, la tecnología de los sistemas de información puede verse como un factor de producción que puede sustituir a el capital y la mano de obra tradicional.",
+        "opciones": [
+            "True",
+            "False"
+        ],
+        "respuesta_correcta": "True"
+    },
+    {
+        "pregunta": "Los sistemas de información de gestión (MIS) suelen apoyar la toma de decisiones no rutinarias.",
+        "opciones": [
+            "True",
+            "False"
+        ],
+        "respuesta_correcta": "False"
+    },
+    {
+        "pregunta": "El modelo de las 5 fuerzas competitivas fue creado para la firma digital actual.",
+        "opciones": [
+            "True",
+            "False"
+        ],
+        "respuesta_correcta": "False"
+    },
+    {
+        "pregunta": "El modelo de cadena de valor clasifica todas las actividades de la empresa como primarias o de soporte.",
+        "opciones": [
+            "True",
+            "False"
+        ],
+        "respuesta_correcta": "True"
+    },
+    {
+        "pregunta": "Los costos incurridos cuando una empresa compra en el mercado lo que no puede hacer se denominan:",
+        "opciones": [
+            "costos de cambio",
+            "costos de transacción",
+            "costos de agencia",
+            "costos fijos"
+        ],
+        "respuesta_correcta": "costos de transacción"
+    },
+    {
+        "pregunta": "Los cuatro tipos principales de estrategia competitiva son:",
+        "opciones": [
+            "liderazgo de bajo costo; productos y servicios sustitutos; clientes; y proveedores",
+            "liderazgo de bajo costo; la diferenciación del producto; centrarse en un nicho de mercado; e intimidad con clientes y proveedores.",
+            "nuevos participantes en el mercado; productos y servicios sustitutos; clientes; y proveedores.",
+            "liderazgo de bajo costo; nuevos participantes en el mercado; la diferenciación del producto; y centrarse en un nicho de mercado."
+        ],
+        "respuesta_correcta": "liderazgo de bajo costo; la diferenciación del producto; centrarse en un nicho de mercado; e intimidad con clientes y proveedores."
+    },
+    {
+        "pregunta": "Una empresa virtual es una empresa que:",
+        "opciones": [
+            "utiliza redes de alianza con otras empresas para crear y distribuir productos sin estar limitado por los límites organizacionales tradicionales o ubicación física",
+            "utiliza tecnología de Internet para mantener una tienda virtual.",
+            "utiliza la tecnología de Internet para mantener una comunidad de usuarios en red.",
+            "proporciona servicios y productos virtuales."
+        ],
+        "respuesta_correcta": "utiliza redes de alianza con otras empresas para crear y distribuir productos sin estar limitado por los límites organizacionales tradicionales o ubicación física"
+    },
+    {
+        "pregunta": "El modelo de la cadena de valor ve a la empresa como una serie de actividades que agregan valor a productos o servicios.",
+        "opciones": [
+            "True",
+            "False"
+        ],
+        "respuesta_correcta": "True"
+    },
+    {
+        "pregunta": "El valor web es una colección de firmas independientes que utilizan TI altamente sincronizada para coordinar las cadenas de valor para producir productos o servicios colectivamente.",
+        "opciones": [
+            "True",
+            "False"
+        ],
+        "respuesta_correcta": "False"
+    },
+    {
+        "pregunta": "Internet disminuye la accesibilidad, el almacenamiento y la distribución de información para las organizaciones.",
+        "opciones": [
+            "True",
+            "False"
+        ],
+        "respuesta_correcta": "False"
+    },
+    {
+        "pregunta": "La minería de datos es una herramienta para permitir a los usuarios:",
+        "opciones": [
+            "comparar rápidamente los datos de transacciones recopilados durante muchos años",
+            "encontrar relaciones ocultas en los datos",
+            "obtener respuestas en línea a preguntas 'ad hoc' en un tiempo rápido",
+            "resumir cantidades masivas de datos en informes tradicionales mucho más pequeños"
+        ],
+        "respuesta_correcta": "encontrar relaciones ocultas en los datos"
+    },
+    {
+        "pregunta": "Los sistemas empresariales están diseñados principalmente para permitir la comunicación entre una organización y socios y proveedores externos.",
+        "opciones": [
+            "True",
+            "False"
+        ],
+        "respuesta_correcta": "False"
+    },
+    {
+        "pregunta": "El efecto látigo es la distorsión de la información sobre la demanda de un producto a medida que pasa de una entidad a la siguiente en toda la cadena de suministro.",
+        "opciones": [
+            "True",
+            "False"
+        ],
+        "respuesta_correcta": "True"
+    },
+    {
+        "pregunta": "Un sistema de planificación de recursos empresariales (ERP) es un conjunto de módulos de software integrados y una base de datos central común.",
+        "opciones": [
+            "True",
+            "False"
+        ],
+        "respuesta_correcta": "True"
+    },
+    {
+        "pregunta": "¿Cuál de los siguientes NO es cierto acerca de los sistemas empresariales?",
+        "opciones": [
+            "Los sistemas empresariales habilitan respuestas rápidas a las solicitudes de información o productos de los clientes",
+            "Los datos del sistema empresarial tienen definiciones y formatos estandarizados que son aceptados por toda la organización",
+            "El software empresarial incluye herramientas analíticas para evaluar el desempeño organizacional general",
+            "Los sistemas empresariales eficientes dificultan que las empresas se asocien o fusionen con otras organizaciones"
+        ],
+        "respuesta_correcta": "Los sistemas empresariales eficientes dificultan que las empresas se asocien o fusionen con otras organizaciones"
+    },
+    {
+        "pregunta": "Los proveedores de una empresa y los procesos para gestionar las relaciones con ellos representan la:",
+        "opciones": [
+            "cadena de suministro interna del proveedor",
+            "cadena de suministro externa",
+            "cadena de suministro ascendente",
+            "cadena de suministro descendente"
+        ],
+        "respuesta_correcta": "cadena de suministro ascendente"
+    },
+    {
+        "pregunta": "¿Cuál de los siguientes NO es una función de los Sistemas de planificación de la cadena de suministro?",
+        "opciones": [
+            "Modelar la cadena de suministro existente",
+            "Planificación de la demanda",
+            "Gestionar el flujo de productos a través de centros de distribución y almacenes de manera eficiente",
+            "Establecer niveles de inventario óptimos"
+        ],
+        "respuesta_correcta": "Gestionar el flujo de productos a través de centros de distribución y almacenes de manera eficiente"
+    },
+    {
+        "pregunta": "Una cadena de suministro impulsada por pedidos o compras reales de clientes sigue un modelo:",
+        "opciones": [
+            "basado en extracción (pull)",
+            "basado en empuje (push)",
+            "basado en stock (just in case)",
+            "basado en reposición (replacement)"
+        ],
+        "respuesta_correcta": "basado en extracción (pull)"
+    },
+    {
+        "pregunta": "Además de reducir los costos, los sistemas de administración de la cadena de suministro ayudan a incrementar las ventas.",
+        "opciones": [
+            "True",
+            "False"
+        ],
+        "respuesta_correcta": "True"
+    },
+    {
+        "pregunta": "¿Cuál de los siguientes NO se considera un punto de contacto (método de interacción con el cliente) para un CRM?",
+        "opciones": [
+            "correo electrónico",
+            "sitio web",
+            "intranet",
+            "tienda minorista"
+        ],
+        "respuesta_correcta": "intranet"
+    },
+    {
+        "pregunta": "Internet reduce la asimetría de información.",
+        "opciones": [
+            "True",
+            "False"
+        ],
+        "respuesta_correcta": "True"
+    },
+    {
+        "pregunta": "La desintermediación consistentemente brinda importantes beneficios a toda la cadena de distribución.",
+        "opciones": [
+            "True",
+            "False"
+        ],
+        "respuesta_correcta": "False"
+    },
+    {
+        "pregunta": "En general, para los bienes digitales, el costo marginal de producir otra unidad es aproximadamente cero.",
+        "opciones": [
+            "True",
+            "False"
+        ],
+        "respuesta_correcta": "True"
+    },
+    {
+        "pregunta": "¿Cuál de las siguientes NO es una de las características únicas de la tecnología de comercio electrónico?",
+        "opciones": [
+            "ubicuidad",
+            "riqueza",
+            "volatilidad de la información",
+            "estándares universales"
+        ],
+        "respuesta_correcta": "volatilidad de la información"
+    },
+    {
+        "pregunta": "La venta de los mismos productos a diferentes grupos objetivo a diferentes precios se llama:",
+        "opciones": [
+            "personalización de costos",
+            "optimización de costos",
+            "aumento de precios",
+            "discriminación de precios"
+        ],
+        "respuesta_correcta": "discriminación de precios"
+    },
+    {
+        "pregunta": "¿Cuál de las siguientes empresas utiliza el modelo de negocio creador del mercado?",
+        "opciones": [
+            "una casa de remates en línea",
+            "un periódico en línea",
+            "un sitio para compartir videos en línea",
+            "un librería en línea"
+        ],
+        "respuesta_correcta": "una casa de remates en línea"
+    },
+    {
+        "pregunta": "En comparación con los mercados digitales, los mercados tradicionales tienen:",
+        "opciones": [
+            "menores costos de búsqueda",
+            "efectos de red más fuertes",
+            "mayores efectos de gratificación retardada",
+            "mayores costos de transacción"
+        ],
+        "respuesta_correcta": "mayores costos de transacción"
+    },
+    {
+        "pregunta": "¿Cuál de las siguientes empresas utiliza el modelo de negocio de Internet de proveedor de contenido?",
+        "opciones": [
+            "PedidosYa",
+            "Netflix",
+            "Uber",
+            "MercadoLibre"
+        ],
+        "respuesta_correcta": "Netflix"
+    },
+    {
+        "pregunta": "¿Cuál de las siguientes NO es un modelo de negocios del comercio electrónico visto en el curso?",
+        "opciones": [
+            "agente de transacciones",
+            "franquicia o licencia",
+            "e-Tailer",
+            "proveedor de servicio"
+        ],
+        "respuesta_correcta": "franquicia o licencia"
+    },
+    {
+        "pregunta": "¿Cuál de las siguientes NO es un modelo de ingresos del comercio electrónico visto en el curso?",
+        "opciones": [
+            "ventas",
+            "gratis / freemium",
+            "arbitraje",
+            "tarifa de transacción"
+        ],
+        "respuesta_correcta": "arbitraje"
+    },
+    {
+        "pregunta": "El último paso en la cadena de valor de la gestión del conocimiento es:",
+        "opciones": [
+            "adquirir",
+            "difundir",
+            "almacenar",
+            "aplicar retroalimentación"
+        ],
+        "respuesta_correcta": "aplicar retroalimentación"
+    },
+    {
+        "pregunta": "¿Cuál de las siguientes afirmaciones NO es una descripción precisa de la importancia del conocimiento para una empresa?",
+        "opciones": [
+            "El conocimiento experimenta efectos de red a medida que más personas lo comparten.",
+            "El conocimiento es incondicional.",
+            "El conocimiento debe ser visto como un activo intangible clave.",
+            "El conocimiento permite a las empresas ser más eficientes en el uso de recursos escasos",
+            "Parte del valor de la empresa se basa en la capacidad de crear conocimiento."
+        ],
+        "respuesta_correcta": "El conocimiento es incondicional."
+    },
+    {
+        "pregunta": "¿Cuál de las siguientes afirmaciones sobre Sistemas Expertos es cierta?",
+        "opciones": [
+            "Resuelven problemas demasiado difíciles para los expertos humanos.",
+            "Se basan en las reglas 'DO WHILE'.",
+            "Comparten características con la computación transaccional.",
+            "Trabajan en dominios muy limitados.",
+            "Se utilizan para el descubrimiento de conocimientos."
+        ],
+        "respuesta_correcta": "Trabajan en dominios muy limitados."
+    },
+    {
+        "pregunta": "Tanto los documentos estructurados como los no estructurados pueden contener conocimiento.",
+        "opciones": [
+            "True",
+            "False"
+        ],
+        "respuesta_correcta": "True"
+    },
+    {
+        "pregunta": "¿Cuál de las siguientes afirmaciones describe mejor la relación entre la colaboración y la gestión del conocimiento?",
+        "opciones": [
+            "El conocimiento es más útil cuando se comparte con otros.",
+            "El conocimiento no existe sin colaboración.",
+            "Sin conocimiento, la colaboración es difícil.",
+            "A medida que aumenta el conocimiento, también lo hace la colaboración.",
+            "El conocimiento es el producto final de la colaboración."
+        ],
+        "respuesta_correcta": "Sin conocimiento, la colaboración es difícil."
+    },
+    {
+        "pregunta": "¿Cuál de las siguientes no es una de las cuatro dimensiones principales del conocimiento descritas en clase?",
+        "opciones": [
+            "El conocimiento es un activo de la empresa.",
+            "El conocimiento tiene diferentes formas.",
+            "El conocimiento tiene una ubicación.",
+            "El conocimiento es situacional.",
+            "El conocimiento es atemporal."
+        ],
+        "respuesta_correcta": "El conocimiento es atemporal."
+    },
+    {
+        "pregunta": "¿Cuál de las siguientes NO describe las dimensiones del conocimiento en una empresa?",
+        "opciones": [
+            "Está sujeto a las leyes de los rendimientos decrecientes.",
+            "Es contextual y aplicable solo en situaciones relevantes.",
+            "Es intangible.",
+            "Es un evento cognitivo que involucra modelos mentales.",
+            "Está enredado en la cultura de una empresa."
+        ],
+        "respuesta_correcta": "Está sujeto a las leyes de los rendimientos decrecientes."
+    },
+    {
+        "pregunta": "¿Cuál de los siguientes describe mejor la razón principal para implementar un nuevo sistema de información, desde una perspectiva empresarial?",
+        "opciones": [
+            "El sistema permite a la empresa crear nuevos productos y servicios.",
+            "El sistema automatizará los procesos comerciales clave.",
+            "El sistema está en uso por sus principales competidores.",
+            "El sistema se integra con la Web.",
+            "El sistema creará nuevo valor para la empresa, más allá de sus costos."
+        ],
+        "respuesta_correcta": "El sistema creará nuevo valor para la empresa, más allá de sus costos."
+    },
+    {
+        "pregunta": "Una empresa digital produce únicamente bienes o servicios digitales.",
+        "opciones": [
+            "True",
+            "False"
+        ],
+        "respuesta_correcta": "False"
+    },
+    {
+        "pregunta": "Un ejemplo de activo social complementario es:",
+        "opciones": [
+            "Empresas de tecnología y servicios en mercados adyacentes.",
+            "Programas de formación.",
+            "Derechos de decisión distribuidos.",
+            "Incentivos a la innovación en la gestión.",
+            "Un sólido equipo de desarrollo de SI."
+        ],
+        "respuesta_correcta": "Empresas de tecnología y servicios en mercados adyacentes."
+    },
+    {
+        "pregunta": "Los procesos de negocio son colecciones de:",
+        "opciones": [
+            "prácticas y comportamientos informales.",
+            "prácticas y comportamientos informales.",
+            "reglas de negocio.",
+            "derechos y privilegios.",
+            "rutina"
+        ],
+        "respuesta_correcta": "rutina"
+    },
+    {
+        "pregunta": "Intranets:",
+        "opciones": [
+            "se basan en tecnología mainframe.",
+            "son múltiples redes unidas entre sí.",
+            "se utilizan normalmente para comunicarse con los proveedores de confianza de la empresa.",
+            "proporcionan la plataforma sobre la cual una empresa construye sus sistemas de información.",
+            "utilizan la tecnología de Internet para una red de empresa privada"
+        ],
+        "respuesta_correcta": "utilizan la tecnología de Internet para una red de empresa privada"
+    },
+    {
+        "pregunta": "¿Qué tipo de sistema usaría para pronosticar el retorno de la inversión (ROI) si usara nuevos proveedores con mejores registros de entrega?",
+        "opciones": [
+            "ESS",
+            "TPS",
+            "MIS",
+            "CRM",
+            "DSS"
+        ],
+        "respuesta_correcta": "DSS"
+    },
+    {
+        "pregunta": "Los sistemas de apoyo ejecutivo (ESS) son sistemas de información que apoyan:",
+        "opciones": [
+            "las actividades de planificación a largo plazo de la alta dirección.",
+            "trabajadores del conocimiento y de datos en una organización.",
+            "toma de decisiones y actividades administrativas de los mandos medios",
+            "los procesos cotidianos de producción.",
+            "necesidades transaccionales de la organización."
+        ],
+        "respuesta_correcta": "las actividades de planificación a largo plazo de la alta dirección."
+    },
+    {
+        "pregunta": "¿Cuál de las siguientes es una decisión altamente estructurada?",
+        "opciones": [
+            "Crear un nuevo producto.",
+            "Estimar el efecto del cambio en los costos de los materiales de suministro.",
+            "Calcular las mejores rutas de camiones para la entrega del producto.",
+            "Concesión de crédito a un cliente.",
+            "Pronosticar nuevas tendencias de la industria."
+        ],
+        "respuesta_correcta": "Concesión de crédito a un cliente."
+    },
+    {
+        "pregunta": "¿Cuál de las siguientes afirmaciones NO es cierto acerca de los sistemas empresariales?",
+        "opciones": [
+            "Los sistemas empresariales habilitan respuestas rápidas a las solicitudes de información o productos de los clientes",
+            "Los datos del sistema empresarial tienen definiciones y formatos estandarizados que son aceptados por toda la organización",
+            "El software empresarial incluye herramientas analíticas para evaluar el desempeño organizacional general",
+            "Los sistemas empresariales eficientes dificultan que las empresas se asocien o fusionen con otras organizaciones"
+        ],
+        "respuesta_correcta": "Los sistemas empresariales eficientes dificultan que las empresas se asocien o fusionen con otras organizaciones"
+    },
+    {
+        "pregunta": "¿Cuál de las siguientes afirmaciones NO es cierto acerca de los ERP?",
+        "opciones": [
+            "Los ERP ayudan a las empresas a responder rápidamente a las solicitudes de información o productos de los clientes.",
+            "Los datos del ERP tienen definiciones y formatos estandarizados que son aceptados por toda la organización.",
+            "Los ERP se crean expresamente para permitir que las empresas ejecuten sus prácticas comerciales únicas.",
+            "Los ERP incluyen herramientas analíticas para evaluar el desempeño general de la organización.",
+            "Los ERP proporcionan información de toda la empresa para ayudar a los gerentes a tomar mejores decisiones."
+        ],
+        "respuesta_correcta": "Los ERP se crean expresamente para permitir que las empresas ejecuten sus prácticas comerciales únicas."
+    },
+    {
+        "pregunta": "Si los fabricantes tuvieran la información perfecta, podrían implementar una:",
+        "opciones": [
+            "estrategia hiper eficiente.",
+            "estrategia sin fricción.",
+            "estrategia simplificada.",
+            "estrategia de látigo.",
+            "estrategia justo a tiempo."
+        ],
+        "respuesta_correcta": "estrategia justo a tiempo."
+    },
+    {
+        "pregunta": "Internet aumenta la asimetría de información.",
+        "opciones": [
+            "True",
+            "False"
+        ],
+        "respuesta_correcta": "False"
+    },
+    {
+        "pregunta": "¿Cuál de las siguientes afirmaciones NO describe las dimensiones del conocimiento en una empresa?",
+        "opciones": [
+            "Está sujeto a las leyes de los rendimientos decrecientes.",
+            "Es contextual y aplicable solo en situaciones relevantes.",
+            "Es intangible.",
+            "Es un evento cognitivo que involucra modelos mentales.",
+            "Está enredado en la cultura de una empresa."
+        ],
+        "respuesta_correcta": "Está sujeto a las leyes de los rendimientos decrecientes."
+    },
+    {
+        "pregunta": "¿Qué dimensión de la tecnología de comercio electrónico describe la integración de mensajes de marketing de video, audio y texto en un solo mensaje de marketing y experiencia del consumidor?",
+        "opciones": [
+            "Ubicuidad",
+            "Riqueza",
+            "Tecnología social",
+            "Personalización/adaptación",
+            "Interactividad"
+        ],
+        "respuesta_correcta": "Riqueza"
+    },
+    {
+        "pregunta": "La reducción de los costos de almacenamiento, procesamiento y comunicación de la información, junto con la mejora de la calidad de los datos, ¿ha dado como resultado qué cualidad única del comercio electrónico?",
+        "opciones": [
+            "Densidad de la información",
+            "Riqueza",
+            "Ubicuidad",
+            "Interactividad",
+            "Alcance global"
+        ],
+        "respuesta_correcta": "Densidad de la información"
+    },
+    {
+        "pregunta": "Cuando hablamos de Inteligencia artificial, decimos que:",
+        "opciones": [
+            "Son sistemas que toman entradas de datos, los procesan y producen salidas",
+            "Realizan tareas complejas difíciles de realizar por humanos",
+            "Pueden aprender y adaptarse a nuevas situaciones a través de algoritmos",
+            "Todas las anteriores"
+        ],
+        "respuesta_correcta": "Todas las anteriores"
+    },
+    {
+        "pregunta": "El objetivo principal de un sistema de información es:",
+        "opciones": [
+            "almacenar datos.",
+            "apoyar la toma de decisiones",
+            "procesar datos",
+            "automatizar tareas administrativas"
+        ],
+        "respuesta_correcta": "apoyar la toma de decisiones"
+    },
+    {
+        "pregunta": "Cuando hablamos de “gastar menos recursos para hacer lo mismo” ¿a cuál de los 6 objetivos de negocios estratégicos nos referimos?",
+        "opciones": [
+            "toma de decisiones mejorada",
+            "excelencia operacional",
+            "sobrevivencia",
+            "nuevos productos"
+        ],
+        "respuesta_correcta": "excelencia operacional"
+    },
+    {
+        "pregunta": "¿Qué diferencia los datos de la información?",
+        "opciones": [
+            "Los datos son hechos crudos, mientras que la información tiene significado.",
+            "Los datos son información procesada.",
+            "Los datos y la información son lo mismo.",
+            "Los datos son más valiosos que la información."
+        ],
+        "respuesta_correcta": "Los datos son hechos crudos, mientras que la información tiene significado."
+    },
+    {
+        "pregunta": "¿Qué tipo de sistemas llevan el registro de las actividades elementales de la organización, como ventas, recibos, depósitos en efectivo, nóminas, decisiones de créditos y el flujo de materiales en una fábrica?",
+        "opciones": [
+            "MIS",
+            "DSS",
+            "TPS",
+            "SGI"
+        ],
+        "respuesta_correcta": "TPS"
+    },
+    {
+        "pregunta": "Los sistemas de información gerencial:",
+        "opciones": [
+            "Son muy flexibles, pero poca capacidad analítica.",
+            "Son muy flexibles.",
+            "No son flexibles y tienen poca capacidad analítica"
+        ],
+        "respuesta_correcta": "No son flexibles y tienen poca capacidad analítica"
+    },
+    {
+        "pregunta": "Los tableros de control son una herramienta de apoyo a los ESS (Sistemas de apoyo a ejecutivos). Esta información sintetizada proviene de:",
+        "opciones": [
+            "MIS, DSS y fuentes externas",
+            "TPS, MIS y DSS",
+            "TPS, DSS y fuentes externas"
+        ],
+        "respuesta_correcta": "TPS, MIS y DSS"
+    },
+    {
+        "pregunta": "¿Cómo puede una empresa administrar toda la información en los distintos sistemas?",
+        "opciones": [
+            "Aplicaciones de enfoque en proveedores",
+            "Eliminar los sistemas legado",
+            "Aplicaciones empresariales",
+            "Sistemas de apoyo a ejecutivos"
+        ],
+        "respuesta_correcta": "Aplicaciones empresariales"
+    },
+    {
+        "pregunta": "Los Sistemas de Planificación de Recursos Empresariales (ERP):",
+        "opciones": [
+            "Son sistemas que se utilizan únicamente en grandes corporaciones.",
+            "Integran diferentes funciones empresariales en un único sistema.",
+            "Suelen ser personalizados y diseñados desde cero para cada empresa.",
+            "No tienen impacto en la eficiencia operativa de una empresa."
+        ],
+        "respuesta_correcta": "Integran diferentes funciones empresariales en un único sistema."
+    },
+    {
+        "pregunta": "Tanto el ERP como el CRM buscan integrar y optimizar los procesos empresariales para mejorar la eficiencia y la toma de decisiones, además que se centran en la gestión de datos de la organización.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": "Verdadero"
+    },
+    {
+        "pregunta": "En cuanto al rol de un analista de sistemas, ¿cuál de las siguientes tareas es típica de su rol?",
+        "opciones": [
+            "Traducir requerimientos de negocios en requerimientos de SI.",
+            "Diseñar estrategias de marketing.",
+            "Configurar redes informáticas e instalar sw.",
+            "Gestionar recursos humanos del departamento de sistemas."
+        ],
+        "respuesta_correcta": "Traducir requerimientos de negocios en requerimientos de SI."
+    },
+    {
+        "pregunta": "¿Cuál de las siguientes opciones describe mejor la definición técnica de una organización?",
+        "opciones": [
+            "Un grupo informal de personas que comparten intereses comunes.",
+            "Un edificio donde las personas trabajan juntas.",
+            "Estructura social formal y estable, que toma recursos del entorno, los procesa y produce salidas.",
+            "Una empresa que opera exclusivamente en forma digital."
+        ],
+        "respuesta_correcta": "Estructura social formal y estable, que toma recursos del entorno, los procesa y produce salidas."
+    },
+    {
+        "pregunta": "¿Cuál de las siguientes fuerzas de Porter se relaciona con los obstáculos que dificultan que las empresas ingresen a una industria?",
+        "opciones": [
+            "Poder de negociación de los proveedores.",
+            "Productos y servicios sustitutos.",
+            "Poder de negociación de los clientes.",
+            "Nuevos participantes en el mercado."
+        ],
+        "respuesta_correcta": "Nuevos participantes en el mercado."
+    },
+    {
+        "pregunta": "En las aplicaciones empresariales uno de los valores de negocio es que la empresa tenga bases de datos comunes en formato coherente para evitar las dificultades de gestionar de forma eficiente las cadenas de valor.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": "Verdadero"
+    },
+    {
+        "pregunta": "Una empresa digital se caracteriza por tener:",
+        "opciones": [
+            "relaciones comerciales de cualquier tipo.",
+            "únicamente desplazamiento en el tiempo",
+            "Procesos de negocio a través de redes digitales"
+        ],
+        "respuesta_correcta": "Procesos de negocio a través de redes digitales"
+    },
+    {
+        "pregunta": "La cadena de suministro de una empresa es una red de organizaciones y procesos de negocios para:",
+        "opciones": [
+            "Desarrollar estrategias de precios y descuentos para aumentar las ventas.",
+            "Promocionar productos y servicios a través de campañas de marketing en línea.",
+            "Adquirir las materias primas, transformarlos en productos finales y distribuirlos a los clientes.",
+            "Ninguna de las anteriores."
+        ],
+        "respuesta_correcta": "Adquirir las materias primas, transformarlos en productos finales y distribuirlos a los clientes."
+    },
+    {
+        "pregunta": "En el ejemplo visto en clase de MC Donald`s y su cadena de valor orientada a la demanda, podemos decir que:",
+        "opciones": [
+            "Su modelo es basado en pull en una industria push",
+            "Es un modelo basado únicamente en push",
+            "Es un modelo basado únicamente en pull",
+            "Su modelo es basado en push en una industria pull"
+        ],
+        "respuesta_correcta": "Su modelo es basado en pull en una industria push"
+    },
+    {
+        "pregunta": "¿Cuál es el principal objetivo de un sistema CRM?",
+        "opciones": [
+            "Gestionar el módulo clientes de la cadena de suministros",
+            "Aumentar la liquidez financiera de la empresa para aumentar los clientes",
+            "Tener una única vista de mis proveedores",
+            "Tener una única visión de mis clientes"
+        ],
+        "respuesta_correcta": "Tener una única visión de mis clientes"
+    },
+    {
+        "pregunta": "La desintermediación elimina beneficios al distribuidor.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": "Verdadero"
+    },
+    {
+        "pregunta": "La venta de productos y servicios directamente a consumidores individuales a través de Internet describe mejor:",
+        "opciones": [
+            "Comercio electrónico B2B",
+            "M-commerce",
+            "Comercio electrónico B2C",
+            "Ninguna es correcta"
+        ],
+        "respuesta_correcta": "Comercio electrónico B2C"
+    },
+    {
+        "pregunta": "El modelo de ingresos de una empresa describe cómo va a obtener ingresos, generar utilidades y producir un rendimiento superior sobre la inversión. En el modelo, los sitios Web envían visitantes a otros sitios Web a cambio de una cuota por referencia o un porcentaje de los ingresos por cualquier ventas resultante.",
+        "opciones": [
+            "suscripción",
+            "Freemium",
+            "Cuota por transacción",
+            "Afiliados"
+        ],
+        "respuesta_correcta": "Afiliados"
+    },
+    {
+        "pregunta": "Cuando hablamos del conocimiento explícito nos referimos a:",
+        "opciones": [
+            "Aquel que reside en las mentes y tiene documentación",
+            "Aquel que reside en las mentes y no tiene documentación",
+            "Aquel que tiene documentación"
+        ],
+        "respuesta_correcta": "Aquel que tiene documentación"
+    },
+    {
+        "pregunta": "Las comunidades de práctica son:",
+        "opciones": [
+            "RRSS de clientes de la organización que quieren aprender",
+            "Área o sector formal de la organización que incluye profesionales y empleados interesados en temas comunes",
+            "Cursos en línea masivamente abierto para todos los interesados",
+            "Un grupo de personas que comparten intereses y objetivos profesionales."
+        ],
+        "respuesta_correcta": "Un grupo de personas que comparten intereses y objetivos profesionales."
+    },
+    {
+        "pregunta": "Aulas es un Sistema de gestión del conocimiento.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": "Verdadero"
+    },
+    {
+        "pregunta": "Los sistemas expertos:",
+        "opciones": [
+            "Son programas que imitan la toma de decisiones de un profesional experto en la materia.",
+            "Son muy útiles para resolver problemas no estructurados.",
+            "Tienen muchos resultados posibles los que los hace ser una de las mejores herramientas."
+        ],
+        "respuesta_correcta": "Son programas que imitan la toma de decisiones de un profesional experto en la materia."
+    },
+    {
+        "pregunta": "En Machine Learning, los tipos de problemas no supervisados no utilizan etiquetas de datos, a diferencia del aprendizaje supervisado, donde las etiquetas son necesarias para tareas como la clasificación.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": "Verdadero"
+    },
+    {
+        "pregunta": "¿Cuál de las siguientes afirmaciones es correcta en relación con las redes neuronales y el machine learning?",
+        "opciones": [
+            "El deep learning requiere menos datos para entrenar modelos en comparación con el machine learning.",
+            "En machine learning, los algoritmos son más complejos que en deep learning.",
+            "Deep learning es una subcategoría de machine learning que utiliza redes neuronales profundas para aprender patrones."
+        ],
+        "respuesta_correcta": "Deep learning es una subcategoría de machine learning que utiliza redes neuronales profundas para aprender patrones."
+    },
+    {
+        "pregunta": "¿Qué es la visión artificial en el ámbito de la inteligencia artificial?",
+        "opciones": [
+            "Un método para corregir errores de programación.",
+            "Un enfoque para que las máquinas puedan 'ver' y entender imágenes.",
+            "Una técnica para mejorar la velocidad de procesamiento de datos.",
+            "Una estrategia para la protección de datos."
+        ],
+        "respuesta_correcta": "Un enfoque para que las máquinas puedan 'ver' y entender imágenes."
+    },
+    {
+        "pregunta": "¿Cómo impacta la toma de decisiones estructuradas y no estructuradas en la jerarquía organizacional de una empresa tecnológica?",
+        "opciones": [
+            "Las decisiones no estructuradas, como la estrategia de lanzamiento de un nuevo producto, se toman típicamente en niveles más altos de la jerarquía, mientras que las decisiones estructuradas, como la asignación de recursos de soporte técnico, son más comunes en niveles operativos.",
+            "Las decisiones estructuradas, como la programación de actualizaciones de software, son tomadas principalmente por niveles ejecutivos, mientras que las decisiones no estructuradas, como la resolución de problemas técnicos imprevistos, se dejan a niveles operativos.",
+            "La toma de decisiones no estructuradas, como la formulación de una nueva estrategia de marketing digital, se relaciona con la gerencia media de la jerarquía organizacional, mientras que las decisiones estructuradas, como la gestión de proyectos de desarrollo de software, son comunes en niveles operativos."
+        ],
+        "respuesta_correcta": "Las decisiones no estructuradas, como la estrategia de lanzamiento de un nuevo producto, se toman típicamente en niveles más altos de la jerarquía, mientras que las decisiones estructuradas, como la asignación de recursos de soporte técnico, son más comunes en niveles operativos."
+    },
+    {
+        "pregunta": "Cuando hablamos de componentes interrelacionados que recolectan, recuperan, procesan, almacenan y distribuyen información para apoyar los procesos de toma de decisiones estamos definiendo:",
+        "opciones": [
+            "Tecnología de la información",
+            "Sistemas de información",
+            "Sistemas empresariales",
+            "Sistemas de apoyo a la toma de decisiones"
+        ],
+        "respuesta_correcta": "Sistemas de información"
+    },
+    {
+        "pregunta": "¿Cuál de las siguientes afirmaciones describe mejor la inteligencia comercial (BI)?",
+        "opciones": [
+            "La inteligencia comercial se centra exclusivamente en la recopilación de datos históricos de ventas.",
+            "La inteligencia comercial implica el análisis de datos para obtener información valiosa que puede ayudar en la toma de decisiones comerciales.",
+            "La inteligencia comercial se utiliza solo en el ámbito del marketing digital y las redes sociales."
+        ],
+        "respuesta_correcta": "La inteligencia comercial implica el análisis de datos para obtener información valiosa que puede ayudar en la toma de decisiones comerciales."
+    },
+    {
+        "pregunta": "¿Cuál de las siguientes afirmaciones describe mejor la diferencia entre inteligencia comercial (BI) y análisis de negocios (BA), y quiénes son los usuarios principales de cada uno?",
+        "opciones": [
+            "La inteligencia comercial se centra en la recopilación y análisis de datos provenientes del negocio para mejorar estrategias comerciales específicas, mientras que el análisis de negocios abarca un enfoque más amplio, incluyendo técnicas y herramientas para entender mejor esos datos.",
+            "Ambas, la inteligencia comercial y el análisis de negocio se centran en mejorar las operaciones empresariales mediante el análisis de datos. Los usuarios principales de ambas son los analistas de datos y los científicos de datos.",
+            "La inteligencia comercial y el análisis de negocios son términos intercambiables y se utilizan de manera similar. Los usuarios principales son los gerentes de nivel medio que toman decisiones operativas y estratégicas."
+        ],
+        "respuesta_correcta": "La inteligencia comercial se centra en la recopilación y análisis de datos provenientes del negocio para mejorar estrategias comerciales específicas, mientras que el análisis de negocios abarca un enfoque más amplio, incluyendo técnicas y herramientas para entender mejor esos datos."
+    },
+    {
+        "pregunta": "Cuando hablamos de 'por no tener datos correctos llegamos a tener sub-producción o super producción' ¿a cuál de los 6 objetivos de negocios estratégicos nos referimos?",
+        "opciones": [
+            "intimidad con clientes y proveedores",
+            "toma de decisiones mejorada",
+            "sobrevivencia",
+            "nuevos productos"
+        ],
+        "respuesta_correcta": "toma de decisiones mejorada"
+    },
+    {
+        "pregunta": "¿Qué tipo de sistemas responden a preguntas de rutina previamente especificadas y tienen procedimientos predefinidos, con poca capacidad analítica?",
+        "opciones": [
+            "TPS",
+            "DSS",
+            "MIS",
+            "SGI"
+        ],
+        "respuesta_correcta": "TPS"
+    },
+    {
+        "pregunta": "Un DSS permite automatizar la obtención de datos (internos y externos) más relevantes y estratégicos para la organización, presentándolos de la forma más comprensible posible.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": "Falso"
+    },
+    {
+        "pregunta": "En cuanto al rol de un programador, ¿cuál de las siguientes tareas es típica de su rol?",
+        "opciones": [
+            "Diseñar estrategias de marketing.",
+            "Sirve de enlace entre los grupos de SI y el resto de la organización.",
+            "Toman requerimientos que alguien especificó y lo traducen a lenguaje de computadoras.",
+            "Gestionar recursos humanos del departamento de sistemas."
+        ],
+        "respuesta_correcta": "Toman requerimientos que alguien especificó y lo traducen a lenguaje de computadoras."
+    },
+    {
+        "pregunta": "En el modelo de la cadena de valor de negocios las actividades primarias incluyen actividades de Logística de entrada y salida, operaciones, venta y marketing, y servicio.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": "Verdadero"
+    },
+    {
+        "pregunta": "En las aplicaciones empresariales uno de los valores de negocio es que la gerencia tiene información disponible en todo momento para la toma de decisiones.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": "Verdadero"
+    },
+    {
+        "pregunta": "Si un fabricante tuviera la información perfecta sobre cuántas unidades exactas de producto desean los clientes, en qué momento las desean y dónde se pueden producir, sería posible implementar:",
+        "opciones": [
+            "Stock de seguridad",
+            "Estrategia just-in-time",
+            "Efecto látigo",
+            "Bajar los costos"
+        ],
+        "respuesta_correcta": "Estrategia just-in-time"
+    },
+    {
+        "pregunta": "Como en Uber, cuando el precio de un producto o servicio varía dependiendo de las características de la demanda del cliente, o de la situación de la oferta del vendedor nos referimos al concepto:",
+        "opciones": [
+            "Productos digitales",
+            "Ajuste dinámico de precios",
+            "e-commerce",
+            "Ubicuidad"
+        ],
+        "respuesta_correcta": "Ajuste dinámico de precios"
+    },
+    {
+        "pregunta": "En el modelo de la cadena de valor de negocios las actividades de apoyo incluyen actividades de Logística de entrada y salida, operaciones, venta y marketing, y servicio.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": "Falso"
+    },
+    {
+        "pregunta": "Walmart vincula a sus proveedores a las tiendas a través de un sistema de cadena de suministros, logrando así tener 0m2 (0 metro cuadrado) para depósito. Con esta decisión mejora la eficiencia y logra mayor rentabilidad. A esto se le llama:",
+        "opciones": [
+            "Excelencia operacional",
+            "Sobrevivencia",
+            "Intimidad con clientes y proveedores",
+            "Ninguna de las anteriores."
+        ],
+        "respuesta_correcta": "Excelencia operacional"
+    },
+    {
+        "pregunta": "Las empresas que apoyan sus inversiones en tecnología con inversiones en nuevos modelos y procesos de negocio, comportamiento gerencial, cultura organizacional o capacitaciones, reciben mayores rendimientos. A esto lo conocemos como:",
+        "opciones": [
+            "Activos suplementarios",
+            "Activos gubernamentales",
+            "Activos primarios",
+            "Activos complementarios"
+        ],
+        "respuesta_correcta": "Activos complementarios"
+    },
+    {
+        "pregunta": "Las empresas digitales responden a sus entornos mucho más lentamente que las empresas tradicionales, dándoles más flexibilidad para sobrevivir en tiempos turbulentos.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": "Falso"
+    },
+    {
+        "pregunta": "¿Cuál es la función principal de un Sistema de Soporte Ejecutivo (ESS)?",
+        "opciones": [
+            "Automatizar procesos operativos diarios.",
+            "Proporcionar información detallada para la toma de decisiones tácticas.",
+            "Asistir a los altos ejecutivos en la toma de decisiones estratégicas.",
+            "Gestionar eficientemente los recursos humanos de una organización."
+        ],
+        "respuesta_correcta": "Asistir a los altos ejecutivos en la toma de decisiones estratégicas."
+    },
+    {
+        "pregunta": "¿Cuál de las siguientes características describe mejor a un Sistema de Procesamiento de Transacciones (TPS)?",
+        "opciones": [
+            "Orientado a la toma de decisiones estratégicas.",
+            "Manejo de grandes volúmenes de transacciones rutinarias.",
+            "Enfocado en el análisis de datos históricos.",
+            "Diseñado para la planificación a largo plazo."
+        ],
+        "respuesta_correcta": "Manejo de grandes volúmenes de transacciones rutinarias."
+    },
+    {
+        "pregunta": "Internet aumenta la accesibilidad, el almacenamiento y la distribución de información para las organizaciones.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": "Verdadero"
+    },
+    {
+        "pregunta": "En el contexto de las decisiones semiestructuradas, ¿es correcto afirmar que estas situaciones son completamente rutinarias y que siempre tienen una respuesta clara y definitiva?",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": "Falso"
+    },
+    {
+        "pregunta": "Cuando la información sobre la demanda de un producto se distorsiona a medida que se transmite de una entidad a otra a lo largo de la cadena de suministro.",
+        "opciones": [
+            "Stock de seguridad",
+            "Efecto látigo",
+            "Estrategia just-in-time",
+            "Efecto ascendente"
+        ],
+        "respuesta_correcta": "Efecto látigo"
+    },
+    {
+        "pregunta": "¿Cuál de las siguientes afirmaciones describe mejor al concepto de sinergia visto en clase?",
+        "opciones": [
+            "La competencia feroz entre las empresas en el mercado de la tecnología.",
+            "La colaboración estratégica entre componentes de hardware en una red.",
+            "La creación de valor adicional y consolidación de operaciones en compañías fusionadas.",
+            "La reducción de costos mediante la externalización de servicios de TI."
+        ],
+        "respuesta_correcta": "La creación de valor adicional y consolidación de operaciones en compañías fusionadas."
+    },
+    {
+        "pregunta": "Una empresa debe invertir en un nuevo sistema de información para poder brindar los mismos servicios que varias empresas de su competencia. ¿Se puede decir que la empresa está invirtiendo para lograr qué objetivo comercial?",
+        "opciones": [
+            "supervivencia",
+            "mejores prácticas comerciales",
+            "ventaja competitiva",
+            "excelencia operacional"
+        ],
+        "respuesta_correcta": "supervivencia"
+    },
+    {
+        "pregunta": "El conocimiento NO es considerado un activo intangible.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": "Falso"
+    },
+    {
+        "pregunta": "Las 3 funciones principales de un SI son:",
+        "opciones": [
+            "Clasificar, Ordenar y Analizar",
+            "Ordenar, Calcular y Presentar",
+            "Clasificar, Ordenar y Calcular",
+            "Analizar, Presentar y Retroalimentar"
+        ],
+        "respuesta_correcta": "Analizar, Presentar y Retroalimentar"
+    },
+    {
+        "pregunta": "Los sistemas de gestión de la cadena de suministro (SCM) tienen una orientación más externa que los sistemas empresariales (ERP).",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": "Verdadero"
+    },
+    {
+        "pregunta": "Como la resistencia organizacional al cambio es tan poderosa, muchas inversiones en tecnología de la información luchan por mantenerse a flote y no incrementan la productividad.",
+        "opciones": [
+            "Verdadero",
+            "Falso"
+        ],
+        "respuesta_correcta": "Verdadero"
+    },
+    {
+        "pregunta": "Un modelo de negocio describe la forma en que una empresa ___________ un producto o servicio para crear riqueza.",
+        "opciones": [
+            "Produce, entrega y vende",
+            "Desarrolla",
+            "Distribuye",
+            "Analiza y produce"
+        ],
+        "respuesta_correcta": "Produce, entrega y vende"
+    },
+    {
+        "pregunta": "Usted es el gerente de TI de una empresa preocupada por perder parte de su participación en el mercado. Lo convocan entonces para proponer el uso de la tecnología para minimizar los costos de producción y así obtener ___________ que permita recuperarse.",
+        "opciones": [
+            "La ganancia necesaria",
+            "La ventaja competitiva",
+            "El foco tecnológico",
+            "Una nueva cultura"
+        ],
+        "respuesta_correcta": "La ventaja competitiva"
+    },
+    {
+        "pregunta": "Usted es el responsable del área de TI de una empresa de retail. Esta empresa ha ganado fama en el mercado por la atención personalizada que brinda a sus clientes. Esta característica le ha valido un rápido crecimiento de su cartera, lo cual dificulta el seguimiento cercano a los clientes por una cuestión de volumen. Usted debe proponer entonces al directorio de la empresa una solución tecnológica que apoye la gestión.",
+        "opciones": [
+            "Usted recomienda un KMS, ya que el conocimiento de los clientes y sus preferencias es fundamental para la atención personalizada.",
+            "Usted recomienda un CRM, ya que le proporcionará la información necesaria para la gestión cercana de sus clientes.",
+            "Usted recomienda un TPS, ya que el apoyo en la toma de decisiones a los supervisores le dará la agilidad necesaria para optimizar los tiempos.",
+            "Usted recomienda un SCM, ya que una buena gestión de la cadena de suministro le liberará tiempo al equipo de trabajo para dedicarle a los clientes."
+        ],
+        "respuesta_correcta": "Usted recomienda un CRM, ya que le proporcionará la información necesaria para la gestión cercana de sus clientes."
+    },
+    {
+        "pregunta": "Una empresa dedicada a la venta en línea se enfrenta a una delicada situación. La elección de plataforma y estrategia de marketing fueron cuidadosamente estudiadas y seleccionadas. Los procesos a su vez se analizar detenidamente para optimizar los costos. Sin embargo, la empresa no logra obtener ganancias y su permanencia en el mercado está en duda. ¿Cuál es la causa más probable de esta situación?",
+        "opciones": [
+            "El diseño de la plataforma.",
+            "El diseño de la estrategia de marketing.",
+            "Factores externos.",
+            "El diseño del modelo de negocio."
+        ],
+        "respuesta_correcta": "El diseño del modelo de negocio."
+    },
+    {
+        "pregunta": "¿Qué sistemas son típicamente una fuente importante de datos para otros sistemas?",
+        "opciones": [
+            "sistemas de procesamiento de transacciones",
+            "sistemas de información gerencial",
+            "sistemas de apoyo ejecutivo",
+            "sistemas de apoyo a la decisión"
+        ],
+        "respuesta_correcta": "sistemas de procesamiento de transacciones"
+    },
+    {
+        "pregunta": "Los sistemas de apoyo ejecutivo (ESS) son sistemas de información que apoyan:",
+        "opciones": [
+            "actividades de planificación a largo plazo de la alta dirección.",
+            "trabajadores de conocimiento y datos en una organización.",
+            "la toma de decisiones y las actividades administrativas de los mandos intermedios.",
+            "procesos cotidianos de producción."
+        ],
+        "respuesta_correcta": "actividades de planificación a largo plazo de la alta dirección."
+    },
+    {
+        "pregunta": "Los ___________ ayudan a los supervisores generando bases de datos que actúan como base para otros sistemas de información.",
+        "opciones": [
+            "TPS",
+            "MIS",
+            "DSS",
+            "ESS"
+        ],
+        "respuesta_correcta": "TPS"
+    },
+    {
+        "pregunta": "Para comprender por completo los sistemas de información, se debe conocer las dimensiones:",
+        "opciones": [
+            "organización, administración, tecnología de los sistemas de información",
+            "tecnología de los sistemas de información, software, gestión de datos",
+            "software, gestión de datos, hardware",
+            "software, gestión de datos, hardware, redes de datos"
+        ],
+        "respuesta_correcta": "organización, administración, tecnología de los sistemas de información"
+    },
+    {
+        "pregunta": "El uso de sistemas de información por necesidad de permanecer en sus actividades de negocios describe el objetivo comercial de:",
+        "opciones": [
+            "barreras de entrada mejorada",
+            "excelencia operacional",
+            "supervivencia",
+            "informes mejorados"
+        ],
+        "respuesta_correcta": "supervivencia"
+    },
+    {
+        "pregunta": "El uso de la tecnología digital e Internet para impulsar los procesos empresariales más importantes se denomina:",
+        "opciones": [
+            "eBusiness",
+            "eCommerce",
+            "intranet",
+            "extranet"
+        ],
+        "respuesta_correcta": "eBusiness"
+    },
+    {
+        "pregunta": "¿Qué tipo de sistema usaría para determinar el tiempo promedio de los proveedores en la entrega de bienes?",
+        "opciones": [
+            "TPS",
+            "MIS",
+            "DSS",
+            "ESS"
+        ],
+        "respuesta_correcta": "MIS"
+    },
+    {
+        "pregunta": "En el modelo de cadena de valor, las actividades primarias están más directamente relacionadas con la producción y distribución de los productos y servicios de la empresa que crean valor para el cliente.",
+        "opciones": [
+            "True",
+            "False"
+        ],
+        "respuesta_correcta": "True"
+    },
+    {
+        "pregunta": "¿Cuál de los siguientes NO es una de las fuerzas competitivas?",
+        "opciones": [
+            "sustitutos",
+            "otros competidores directos",
+            "grupos de interés",
+            "poder negociador de los clientes"
+        ],
+        "respuesta_correcta": "grupos de interés"
+    },
+    {
+        "pregunta": "El valor web es una colección de firmas altamente dependientes que utilizan TI altamente sincronizada para coordinar las cadenas de valor para producir productos o servicios colectivamente.",
+        "opciones": [
+            "True",
+            "False"
+        ],
+        "respuesta_correcta": "False"
+    },
+    {
+        "pregunta": "La dependencia de los datos del programa se refiere al acoplamiento de los datos almacenados en archivos y programas de software que usan estos datos de modo que, cambios en los programas NO requieren cambios en los datos y viceversa.",
+        "opciones": [
+            "True",
+            "False"
+        ],
+        "respuesta_correcta": "False"
+    },
+    {
+        "pregunta": "El proceso de racionalización de datos para minimizar la redundancia y las relaciones incómodas de muchos a muchos se llama:",
+        "opciones": [
+            "normalización",
+            "depuración de datos",
+            "limpieza de datos",
+            "definición de datos"
+        ],
+        "respuesta_correcta": "normalización"
+    },
+    {
+        "pregunta": "Un almacén de datos se compone de:",
+        "opciones": [
+            "datos históricos de sistemas heredados",
+            "datos actuales",
+            "fuentes de datos internas y externas",
+            "datos internos históricos y actuales"
+        ],
+        "respuesta_correcta": "datos internos históricos y actuales"
+    },
+    {
+        "pregunta": "Un Mercado de Datos generalmente se puede construir más rápidamente y a menor costo que un Almacén de Datos porque:",
+        "opciones": [
+            "generalmente se enfoca en un área temática o línea de negocios",
+            "toda la información que almacena es histórica",
+            "utiliza una interfaz web",
+            "toda la información pertenece a una sola empresa"
+        ],
+        "respuesta_correcta": "generalmente se enfoca en un área temática o línea de negocios"
+    },
+    {
+        "pregunta": "Los almacenes de datos combinan exclusivamente cantidades enormes de datos financieros de la empresa.",
+        "opciones": [
+            "True",
+            "False"
+        ],
+        "respuesta_correcta": "False"
+    },
+    {
+        "pregunta": "La organización y procesos responsables de la entrega de productos a los clientes se denomina:",
+        "opciones": [
+            "cadena de suministro ascendente",
+            "cadena de suministro descendente",
+            "distribución final",
+            "distribución ascendente"
+        ],
+        "respuesta_correcta": "distribución final"
+    },
+    {
+        "pregunta": "¿Cuál o cuáles de las siguientes expresiones son incorrectas?. Sólo es válido una respuesta completa, sin opciones excedentes o faltantes:",
+        "opciones": [
+            "Un sector industrial es un grupo de empresas que producen productos que son sustitutos cercanos entre sí.",
+            "El factor determinante “Costo de cambio de proveedor” es utilizado exclusivamente en las fuerzas competitivas “Poder de negociación de los proveedores”, “Amenaza de nuevos ingresos” y “Rivalidad de los competidores existentes” para evaluar la intensidad de dichas fuerzas competitivas.",
+            "Una Estrategia Competitiva comprende una acción ofensiva o defensiva para crear una posición ventajosa a largo plazo desde la cual enfrentar las cinco fuerzas competitivas para lograr un rendimiento superior.",
+            "La rivalidad de los competidores existentes está determinada por la energía con que los competidores usan las armas competitivas (precios, publicidad, nuevos productos, mayor servicio) para obtener una posición más fuerte en el mercado y una ventaja competitiva sobre sus rivales.",
+            "La fuerza competitiva “Presión de productos sustitutos” refiere a los productos producidos por la competencia."
+        ],
+        "respuesta_correcta": "El factor determinante “Costo de cambio de proveedor” es utilizado exclusivamente en las fuerzas competitivas “Poder de negociación de los proveedores”, “Amenaza de nuevos ingresos” y “Rivalidad de los competidores existentes” para evaluar la intensidad de dichas fuerzas competitivas."
+    },
+    {
+        "pregunta": "¿Cuál de las siguientes opciones cree Ud. que se ajusta más a ser la razón por la que las empresas participantes de un sector no desean cumplir con los postulados de la teoría de la competencia perfecta?",
+        "opciones": [
+            "Rivalizan mucho entre sí",
+            "Bajo esas condiciones estarían perdiendo dinero",
+            "Bajo esas condiciones el precio de venta permanecería constante y la inflación las llevaría a perder dinero",
+            "La teoría de la competencia perfecta ha dejado de utilizarse"
+        ],
+        "respuesta_correcta": "Bajo esas condiciones estarían perdiendo dinero"
+    },
+    {
+        "pregunta": "¿Cuál de las siguientes afirmaciones es correcta?",
+        "opciones": [
+            "Se detecta la presencia de un eslabón, cuando existe una relación de influencia favorable de una actividad de un proveedor sobre otra de un cliente",
+            "Se detecta la presencia de un eslabón vertical, cuando existe una relación de influencia favorable de una actividad de un proveedor sobre otra de un cliente",
+            "Se detecta la presencia de un eslabón horizontal, cuando existe una relación de influencia favorable de una actividad de un proveedor sobre otra de un cliente",
+            "Se detecta la presencia de un eslabón horizontal, cuando existe una relación de influencia favorable de una actividad sobre otra en la cadena de valor"
+        ],
+        "respuesta_correcta": "Se detecta la presencia de un eslabón vertical, cuando existe una relación de influencia favorable de una actividad de un proveedor sobre otra de un cliente"
+    },
+    {
+        "pregunta": "En referencia a la cadena de valor de una empresa ¿cuál o cuáles de las siguientes opciones son correctas?",
+        "opciones": [
+            "El grupo de actividades denominado Abastecimiento provee de insumos de apoyo a los grupos Logística Interna, Operaciones y Logística Externa",
+            "El grupo de actividades denominado Abastecimiento provee exclusivamente de insumos de apoyo a los grupos Logística Interna, Operaciones y Logística Externa",
+            "El grupo de actividades denominado Logística Interna provee de materias primas al grupo Operaciones",
+            "El grupo de actividades denominado Abastecimiento provee de materias primas a los grupos Logística Interna, Operaciones y Logística Externa"
+        ],
+        "respuesta_correcta": "El grupo de actividades denominado Abastecimiento provee de insumos de apoyo a los grupos Logística Interna, Operaciones y Logística Externa"
+    },
+    {
+        "pregunta": "En referencia a la evolución de los sistemas de información en las empresas ¿cuál o cuáles de las siguientes opciones son incorrectas?",
+        "opciones": [
+            "En la fase denominada expansión anárquica de las aplicaciones la dirección de la empresa establece criterios de asignación de recursos",
+            "En la fase denominada expansión anárquica de las aplicaciones el responsable del centro de cómputos utiliza criterios pautados por la dirección de la empresa para asignar recursos",
+            "La planificación de los sistemas de información se alcanza en la 4a. fase de la evolución",
+            "La planificación de los sistemas de información es una consecuencia de lo que ocurre en la 1a. fase de la evolución"
+        ],
+        "respuesta_correcta": "La planificación de los sistemas de información se alcanza en la 4a. fase de la evolución"
+    },
+    {
+        "pregunta": "¿Cuál o cuáles de las siguientes opciones son correctas?",
+        "opciones": [
+            "La organización recomendada para elaborar la planificación de sistemas de información comprende cuatro grupos",
+            "En la organización recomendada para elaborar la planificación de sistemas de información el denominado grupo Base es el responsable de apoyar al denominado Equipo de Trabajo",
+            "En la organización recomendada para elaborar la planificación de sistemas de información el denominado grupo Base es el responsable de supervisar el desarrollo del plan",
+            "En la organización recomendada para elaborar la planificación de sistemas de información el denominado grupo Base es el responsable de elaborar el plan"
+        ],
+        "respuesta_correcta": "La organización recomendada para elaborar la planificación de sistemas de información comprende cuatro grupos"
+    },
+    {
+        "pregunta": "Para enviar una clave de sesión a otra persona, a través de un canal público, con la garantía que esta no sea vista por terceras partes, y sin haber tenido previamente un contacto de cualquier tipo con dicha persona, se utiliza:",
+        "opciones": [
+            "Criptografía simétrica",
+            "Criptografía asimétrica",
+            "Un protocolo de autenticación de mensaje (MAC)",
+            "Una función de Hash"
+        ],
+        "respuesta_correcta": "Criptografía asimétrica"
+    },
+    {
+        "pregunta": "¿Cuál o cuáles de las siguientes opciones son incorrectas?",
+        "opciones": [
+            "En materia de seguridad de la información, el mundo físico presenta un escenario radicalmente diferente al denominado mundo on-line, por lo cual para este último, es necesario establecer una legislación sustancialmente diferente",
+            "Las nuevas posibilidades de vulnerar la seguridad que ofrece el mundo on-line respecto del mundo físico y que obligan a considerar otras contramedidas son: el automatismo, la capacidad de propagación y el acceso a distancia",
+            "La negación de servicio o indisponibilidad que es provocada deliberadamente es un problema del proceso de Gestión de la Disponibilidad"
+        ],
+        "respuesta_correcta": "En materia de seguridad de la información, el mundo físico presenta un escenario radicalmente diferente al denominado mundo on-line, por lo cual para este último, es necesario establecer una legislación sustancialmente diferente"
+    },
+    {
+        "pregunta": "¿Cuál de las siguientes opciones es la única correcta?",
+        "opciones": [
+            "Un modelo de amenazas es el plan y las tecnologías que elabora el atacante para vulnerar la seguridad",
+            "La autenticación es el proceso que permite validar que las credenciales presentadas a través del proceso de identificación",
+            "El requisito de seguridad Control de Acceso, es uno de los requisitos posibles de una transacción",
+            "El requisito de privacidad establece la necesidad de evitar que un atacante obtenga un mensaje encriptado"
+        ],
+        "respuesta_correcta": "La autenticación es el proceso que permite validar que las credenciales presentadas a través del proceso de identificación"
+    },
+    {
+        "pregunta": "¿Cuál o cuáles de las siguientes opciones son incorrectas?",
+        "opciones": [
+            "En el proceso de Control de Acceso, una de las tareas consiste en determinar qué sujetos tienen acceso a qué objetos",
+            "En el proceso de Control de Acceso, una de las tareas consiste en determinar qué privilegios tienen los objetos",
+            "En el proceso de Control de Acceso, una de las tareas consiste en garantizar la privacía de los sujetos",
+            "En el proceso de Control de Acceso, una de las tareas consiste en implementar medidas para garantizar la protección de que sujetos no deseados obtengan acceso a determinados objetos"
+        ],
+        "respuesta_correcta": "En el proceso de Control de Acceso, una de las tareas consiste en determinar qué privilegios tienen los objetos"
+    },
+    {
+        "pregunta": "¿Cuál o cuáles de las siguientes opciones son correctas?",
+        "opciones": [
+            "En el proceso de Control de Acceso Mandatorio, la propiedad de confinamiento dice que un sujeto sólo puede escribir en un objeto si su nivel de seguridad es menor o igual que el objeto",
+            "En el proceso de Control de Acceso Mandatorio, la propiedad de confinamiento dice que un sujeto sólo puede leer un objeto si su nivel de seguridad es menor o igual que el objeto",
+            "En el proceso de Control de Acceso Mandatorio, la propiedad simple dice que un sujeto puede escribir en un objeto si su nivel de seguridad es mayor o igual que el del objeto",
+            "En el proceso de Control de Acceso Mandatorio, la propiedad simple dice que un sujeto puede leer un objeto si su nivel de seguridad es mayor o igual que el del objeto"
+        ],
+        "respuesta_correcta": "En el proceso de Control de Acceso Mandatorio, la propiedad simple dice que un sujeto puede leer un objeto si su nivel de seguridad es mayor o igual que el del objeto"
+    },
+    {
+        "pregunta": "¿Cuál o cuáles de las siguientes opciones son correctas?",
+        "opciones": [
+            "En el proceso de Control de Acceso Mandatorio, la propiedad de confinamiento dice que un sujeto sólo puede escribir en un objeto si su nivel de seguridad es menor o igual que el objeto",
+            "En el proceso de Control de Acceso Mandatorio, la propiedad de confinamiento dice que un sujeto sólo puede leer un objeto si su nivel de seguridad es menor o igual que el objeto",
+            "En el proceso de Control de Acceso Mandatorio, la propiedad simple dice que un sujeto puede escribir en un objeto si su nivel de seguridad es mayor o igual que el del objeto",
+            "En el proceso de Control de Acceso Mandatorio, la propiedad simple dice que un sujeto puede leer un objeto si su nivel de seguridad es mayor o igual que el del objeto"
+        ],
+        "respuesta_correcta": "En el proceso de Control de Acceso Mandatorio, la propiedad simple dice que un sujeto puede leer un objeto si su nivel de seguridad es mayor o igual que el del objeto"
+    }
+]

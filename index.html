@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz FSI 2024</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .option {
+            transition: all 0.3s ease;
+            -webkit-tap-highlight-color: transparent;
+        }
+        .option:hover, .option:active {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .correct {
+            background-color: #4ade80 !important;
+            color: white !important;
+        }
+        .incorrect {
+            background-color: #f87171 !important;
+            color: white !important;
+        }
+        #next-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+        .search-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+        .search-container input {
+            width: 4rem;
+            padding: 0.25rem;
+            border: 1px solid #e5e7eb;
+            border-radius: 0.25rem 0 0 0.25rem;
+        }
+        .search-container button {
+            padding: 0.25rem 0.5rem;
+            background-color: #3b82f6;
+            color: white;
+            border-radius: 0 0.25rem 0.25rem 0;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-r from-blue-500 to-purple-600 min-h-screen flex items-center justify-center p-4">
+    <div class="bg-white p-8 rounded-xl shadow-2xl w-full max-w-2xl">
+        <h1 class="text-3xl font-bold mb-6 text-center text-blue-600">Quiz BROU 2024</h1>
+        <div class="search-container">
+            <input type="number" id="search-input" min="1" max="1000" placeholder="Nº">
+            <button id="search-btn" type="button" onclick="searchQuestion()">Buscar</button>
+        </div>
+        <div id="question-container" class="mb-6">
+            <p id="question" class="text-xl font-semibold mb-4"></p>
+            <div id="options" class="space-y-3"></div>
+        </div>
+        <div id="feedback" class="mb-6 font-semibold text-center text-lg hidden"></div>
+        <div class="flex justify-center space-x-4">
+            <button id="next-btn" disabled class="bg-blue-500 text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-blue-600 transition duration-300 hidden">Siguiente pregunta</button>
+            <button id="restart-btn" class="bg-green-500 text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-green-600 transition duration-300 hidden">Volver a empezar</button>
+        </div>
+        <p id="score" class="mt-6 font-semibold text-center text-lg"></p>
+    </div>
+
+    <script>
+        let quizData; // Cambiado de const a let
+
+        fetch('./Preguntas.json')
+            .then(response => response.json())
+            .then(data => {
+                quizData = data;
+                loadQuestion();
+            })
+            .catch(error => console.error('Error al cargar el archivo JSON:', error));
+
+        let currentQuestion = 0;
+        let score = 0;
+        let optionSelected = false;
+
+        const questionEl = document.getElementById('question');
+        const optionsEl = document.getElementById('options');
+        const feedbackEl = document.getElementById('feedback');
+        const nextBtn = document.getElementById('next-btn');
+        const restartBtn = document.getElementById('restart-btn');
+        const scoreEl = document.getElementById('score');
+        const searchInput = document.getElementById('search-input');
+
+        function loadQuestion() {
+            const question = quizData[currentQuestion];
+            questionEl.textContent = question.pregunta;
+            optionsEl.innerHTML = '';
+            optionSelected = false;
+            question.opciones.forEach((option, index) => {
+                const button = document.createElement('button');
+                button.textContent = option;
+                button.classList.add('option', 'w-full', 'text-left', 'p-2', 'rounded', 'border', 'border-gray-300', 'hover:bg-gray-100');
+                button.addEventListener('click', () => selectOption(index));
+                optionsEl.appendChild(button);
+            });
+            feedbackEl.classList.add('hidden');
+            nextBtn.classList.add('hidden');
+            nextBtn.disabled = true;  // Deshabilitar el botón hasta que se seleccione una opción
+        }
+
+        function searchQuestion() {
+            const searchValue = parseInt(searchInput.value);
+            if (searchValue >= 1 && searchValue <= quizData.length) {
+                currentQuestion = searchValue - 1;
+                loadQuestion();
+                searchInput.value = '';
+            } else {
+                alert(`Por favor, ingrese un número entre 1 y ${quizData.length}`);
+            }
+            updateScore();
+        }
+
+        function selectOption(index) {
+            const question = quizData[currentQuestion];
+            const selectedOption = question.opciones[index];
+            const correct = selectedOption === question.respuesta_correcta;
+
+            const options = optionsEl.children;
+            for (let i = 0; i < options.length; i++) {
+                options[i].disabled = true;
+                options[i].classList.remove('correct', 'incorrect'); // Limpiar clases anteriores
+                if (i === index) {
+                    options[i].classList.add(correct ? 'correct' : 'incorrect');
+                }
+                if (question.opciones[i] === question.respuesta_correcta) {
+                    options[i].classList.add('correct');
+                }
+            }
+
+            feedbackEl.textContent = correct ? '¡Correcto!' : 'Incorrecto. La respuesta correcta es: ' + question.respuesta_correcta;
+            feedbackEl.classList.remove('hidden');
+            nextBtn.classList.remove('hidden');
+            nextBtn.disabled = false; // Habilitar el botón "Siguiente" una vez seleccionada una opción
+            optionSelected = true;  // Marcar que se ha seleccionado una opción
+
+            if (correct) score++;
+            updateScore();
+        }
+
+        function nextQuestion() {
+            if (optionSelected) {
+                currentQuestion++;
+                if (currentQuestion < quizData.length) {
+                    loadQuestion();
+                } else {
+                    endQuiz();
+                }
+            }
+            updateScore();
+        }
+
+        function endQuiz() {
+            questionEl.textContent = '¡Quiz completado!';
+            optionsEl.innerHTML = '';
+            feedbackEl.textContent = `Tu puntuación final es: ${score} de ${quizData.length}`;
+            feedbackEl.classList.remove('hidden');
+            nextBtn.classList.add('hidden');
+            restartBtn.classList.remove('hidden');
+        }
+
+        function restartQuiz() {
+            currentQuestion = 0;
+            score = 0;
+            optionSelected = false;  // Reiniciar la variable optionSelected
+            loadQuestion();
+            updateScore();
+            restartBtn.classList.add('hidden');
+            feedbackEl.classList.add('hidden');  // Ocultar el feedback al reiniciar
+        }
+
+        function updateScore() {
+            scoreEl.textContent = `Puntuación: ${score} / Pregunta: ${currentQuestion + 1} de ${quizData.length}`;
+        }
+
+        nextBtn.addEventListener('click', nextQuestion);
+        restartBtn.addEventListener('click', restartQuiz);
+
+        loadQuestion();
+        updateScore();
+    </script>
+</body>
+</html>
