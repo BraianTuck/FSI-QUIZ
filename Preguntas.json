@@ -291,5 +291,205 @@
             "Es un modelo individual de la gestión del cambio que se basa en que las personas integran de forma distinta los cambios y con facilidad y ritmos diferentes.",
             "Puede ser usado como una herramienta de diagnóstico para medir la disposición al cambio de las personas de una organización."
         ]
+    },
+    {
+        "pregunta": "Es aceptable nombrar actividades sin utilizar verbos y objetos.",
+        "respuesta_correcta": "Falso"
+    },
+    {
+        "pregunta": "Las compuertas pueden utilizarse para ramificar y unir flujos al mismo tiempo.",
+        "respuesta_correcta": "Falso"
+    },
+    {
+        "pregunta": "Las tareas en un mismo carril deben conectarse únicamente mediante flujos de secuencia.",
+        "respuesta_correcta": "Verdadero"
+    },
+    {
+        "pregunta": "Es aceptable ramificar flujos utilizando tareas en lugar de compuertas cuando la lógica es simple.",
+        "respuesta_correcta": "Falso"
+    },
+    {
+        "pregunta": "Se pueden omitir eventos de finalización si no son estrictamente necesarios.",
+        "respuesta_correcta": "Falso"
+    },
+    {
+        "pregunta": "Las etiquetas de las compuertas divergentes pueden ser preguntas que clarifiquen la decisión evaluada.",
+        "respuesta_correcta": "Verdadero"
+    },
+    {
+        "pregunta": "Los diagramas deben incluir todos los detalles posibles para evitar confusiones.",
+        "respuesta_correcta": "Falso"
+    },
+    {
+        "pregunta": "Los eventos intermedios pueden interrumpir o no interrumpir el flujo del proceso según su configuración.",
+        "respuesta_correcta": "Verdadero"
+    },
+    {
+        "pregunta": "El registro de un socio nuevo está dentro del alcance del proceso de Consulta Veterinaria.",
+        "respuesta_correcta": "Falso"
+    },
+    {
+        "pregunta": "Según el ciclo de vida de la gestión de procesos de negocios, el proyecto de mejora del proceso de Consulta Veterinaria finaliza con la etapa Implementación del proceso.",
+        "respuesta_correcta": "Falso"
+    },
+    {
+        "pregunta": "El envío del correo electrónico puede ser representado mediante un símbolo de evento con un mensaje.",
+        "respuesta_correcta": "Falso"
+    },
+    {
+        "pregunta": "La generación de la factura puede ser representada mediante una actividad con una persona dentro.",
+        "respuesta_correcta": "Verdadero"
+    },
+    {
+        "pregunta": "El Plan de tratamiento del animal es una salida en el proceso.",
+        "respuesta_correcta": "Verdadero"
+    },
+    {
+        "pregunta": "No se deben crear carriles para representar áreas o entidades que realizan solo tareas automáticas.",
+        "respuesta_correcta": "Verdadero"
+    },
+    {
+        "pregunta": "Se deben diagramar varias instancias de la misma tarea para representar a varios roles que la ejecutan.",
+        "respuesta_correcta": "Falso"
+    },
+    {
+        "pregunta": "Las compuertas basadas en eventos no deben utilizarse para juntar los flujos que fueron divididos.",
+        "respuesta_correcta": "Verdadero"
+    },
+    {
+        "pregunta": "Se deben diagramar tareas, compuertas o eventos en medio de dos carriles si son de responsabilidad compartida.",
+        "respuesta_correcta": "Falso"
+    },
+    {
+        "pregunta": "Se debe utilizar etiquetas de procesos que describan claramente su propósito principal, evitando nombres cortos o abreviaturas.",
+        "respuesta_correcta": "Verdadero"
+    },
+    {
+        "pregunta": "Se debe mantener una dirección consistente del flujo en el diagrama BPMN para facilitar la lectura y la comunicación eficiente.",
+        "respuesta_correcta": "Verdadero"
+    },
+    {
+        "pregunta": "Siempre se deben diagramar los procesos completamente dentro de una Piscina.",
+        "respuesta_correcta": "Verdadero"
+    },
+    {
+        "pregunta": "La creación de Lanes se recomienda solo si se ejecuta al menos una tarea o un evento intermedio en ellas.",
+        "respuesta_correcta": "Verdadero"
+    },
+    {
+        "pregunta": "El uso de compuertas para juntar y separar al mismo tiempo los flujos ayudan a la claridad del proceso.",
+        "respuesta_correcta": "Falso"
+    },
+    {
+        "pregunta": "El uso de compuertas para juntar y separar al mismo tiempo los flujos no ayuda a la claridad del proceso.",
+        "respuesta_correcta": "Falso"
+    },
+    {
+        "pregunta": "Las compuertas se deben nombrar con claridad según su función y condición evaluada.",
+        "respuesta_correcta": "Verdadero"
+    },
+    {
+        "pregunta": "El seguimiento al animal, luego de la consulta, no está dentro del alcance del proceso de Consulta Veterinaria.",
+        "respuesta_correcta": "Falso"
+    },
+    {
+        "pregunta": "Según el ciclo de vida de la gestión de procesos de negocios el Proyecto de Mejora del proceso de Consulta Veterinaria inicia con la etapa Diseño to be.",
+        "respuesta_correcta": "Falso"
+    },
+    {
+        "pregunta": "El tiempo de espera en la sala previa a la consulta termina al ser llamados por el Asistente veterinario o Enfermero. Este evento se puede representar con un evento de mensaje.",
+        "respuesta_correcta": "Falso"
+    },
+    {
+        "pregunta": "El flujo del proceso de Consulta Veterinaria puede ser bifurcado usando tareas.",
+        "respuesta_correcta": "Falso"
+    },
+    {
+        "pregunta": "En el modelado de este proceso se debe utilizar el conector de flujo de secuencia para conectar todas las actividades, eventos, compuertas, acotaciones, entradas y salidas.",
+        "respuesta_correcta": "Falso"
+    },
+    {
+        "pregunta": "La gestión del alcance se centra en determinar qué actividades específicas se deben realizar para cumplir con los objetivos del proyecto.",
+        "respuesta_correcta": "Verdadero"
+    },
+    {
+        "pregunta": "La Estructura de Desglose de Trabajo implica combinar varias actividades en una para facilitar su gestión.",
+        "respuesta_correcta": "Falso"
+    },
+    {
+        "pregunta": "La alta disponibilidad del sistema de telepeaje, definida como 99.9% anual, es un ejemplo de un requisito de alcance del proyecto.",
+        "respuesta_correcta": "Verdadero"
+    },
+    {
+        "pregunta": "La gestión de procesos en el contexto del telepeaje incluye la optimización de las operaciones para aumentar la eficiencia y efectividad.",
+        "respuesta_correcta": "Verdadero"
+    },
+    {
+        "pregunta": "La línea base de los requisitos puede ser modificada sin procedimientos formales.",
+        "respuesta_correcta": "Falso"
+    },
+    {
+        "pregunta": "La gestión del alcance del proyecto incluye definir y controlar lo que está y no está incluido en el proyecto.",
+        "respuesta_correcta": "Verdadero"
+    },
+    {
+        "pregunta": "La verificación del alcance implica obtener la aceptación formal de los entregables del proyecto que se hayan completado.",
+        "respuesta_correcta": "Verdadero"
+    },
+    {
+        "pregunta": "El control del alcance no afecta la gestión de tiempo y costos del proyecto.",
+        "respuesta_correcta": "Falso"
+    },
+    {
+        "pregunta": "El diagrama de red del proyecto es una herramienta utilizada en la gestión del tiempo para mostrar la secuencia de actividades.",
+        "respuesta_correcta": "Verdadero"
+    },
+    {
+        "pregunta": "La gestión del alcance en proyectos incluye la definición y secuenciación de actividades.",
+        "respuesta_correcta": "Falso"
+    },
+    {
+        "pregunta": "Se ha modelado un diagrama de colaboración debido a que muestra la interacción entre procesos.",
+        "respuesta_correcta": "Verdadero"
+    },
+    {
+        "pregunta": "No es mandatorio representar las fases de un proceso, aunque es altamente recomendable.",
+        "respuesta_correcta": "Verdadero"
+    },
+    {
+        "pregunta": "El pago de peaje mediante uso de TAG y con pago automático es el flujo secundario o alterno del proceso.",
+        "respuesta_correcta": "Falso"
+    },
+    {
+        "pregunta": "En la jerarquía del proceso planteado, el subproceso es una unidad inferior y el macroproceso es superior.",
+        "respuesta_correcta": "Verdadero"
+    },
+    {
+        "pregunta": "La matriz de trazabilidad solo se utiliza en la fase de pruebas del ciclo de vida del desarrollo de software.",
+        "respuesta_correcta": "Falso"
+    },
+    {
+        "pregunta": "La Estructura de Desglose de Trabajo debe incluir todos los entregables del proyecto.",
+        "respuesta_correcta": "Verdadero"
+    },
+    {
+        "pregunta": "La Estructura de Desglose de Trabajo no debe cambiar una vez que el proyecto ha comenzado.",
+        "respuesta_correcta": "Falso"
+    },
+    {
+        "pregunta": "La Estructura de Desglose de Trabajo facilita la estimación de costos y tiempos del proyecto.",
+        "respuesta_correcta": "Verdadero"
+    },
+    {
+        "pregunta": "La estimación PERT utiliza tres valores para cada estimación de la duración de una actividad en un proyecto.",
+        "respuesta_correcta": "Verdadero"
+    },
+    {
+        "pregunta": "Las actividades en la ruta crítica tienen una holgura de tiempo igual a cero.",
+        "respuesta_correcta": "Verdadero"
+    },
+    {
+        "pregunta": "La línea base de los requisitos puede ser modificada sin procedimientos formales.",
+        "respuesta_correcta": "Falso"
     }
 ]
