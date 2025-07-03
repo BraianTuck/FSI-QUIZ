@@ -66,125 +66,168 @@
         <p id="score" class="mt-6 font-semibold text-center text-lg"></p>
     </div>
 
-    <script>
-        let quizData; // Cambiado de const a let
-
-        fetch('./Preguntas.json')
-            .then(response => response.json())
-            .then(data => {
-                quizData = data;
-                loadQuestion();
-            })
-            .catch(error => console.error('Error al cargar el archivo JSON:', error));
-
-        let currentQuestion = 0;
-        let score = 0;
-        let optionSelected = false;
-
-        const questionEl = document.getElementById('question');
-        const optionsEl = document.getElementById('options');
-        const feedbackEl = document.getElementById('feedback');
-        const nextBtn = document.getElementById('next-btn');
-        const restartBtn = document.getElementById('restart-btn');
-        const scoreEl = document.getElementById('score');
-        const searchInput = document.getElementById('search-input');
-
-        function loadQuestion() {
-            const question = quizData[currentQuestion];
-            questionEl.textContent = question.pregunta;
-            optionsEl.innerHTML = '';
-            optionSelected = false;
-            question.opciones.forEach((option, index) => {
-                const button = document.createElement('button');
-                button.textContent = option;
-                button.classList.add('option', 'w-full', 'text-left', 'p-2', 'rounded', 'border', 'border-gray-300', 'hover:bg-gray-100');
-                button.addEventListener('click', () => selectOption(index));
-                optionsEl.appendChild(button);
-            });
-            feedbackEl.classList.add('hidden');
-            nextBtn.classList.add('hidden');
-            nextBtn.disabled = true;  // Deshabilitar el botón hasta que se seleccione una opción
-        }
-
-        function searchQuestion() {
-            const searchValue = parseInt(searchInput.value);
-            if (searchValue >= 1 && searchValue <= quizData.length) {
-                currentQuestion = searchValue - 1;
-                loadQuestion();
-                searchInput.value = '';
-            } else {
-                alert(`Por favor, ingrese un número entre 1 y ${quizData.length}`);
-            }
-            updateScore();
-        }
-
-        function selectOption(index) {
-            const question = quizData[currentQuestion];
-            const selectedOption = question.opciones[index];
-            const correct = selectedOption === question.respuesta_correcta;
-
-            const options = optionsEl.children;
-            for (let i = 0; i < options.length; i++) {
-                options[i].disabled = true;
-                options[i].classList.remove('correct', 'incorrect'); // Limpiar clases anteriores
-                if (i === index) {
-                    options[i].classList.add(correct ? 'correct' : 'incorrect');
-                }
-                if (question.opciones[i] === question.respuesta_correcta) {
-                    options[i].classList.add('correct');
-                }
-            }
-
-            feedbackEl.textContent = correct ? '¡Correcto!' : 'Incorrecto. La respuesta correcta es: ' + question.respuesta_correcta;
-            feedbackEl.classList.remove('hidden');
-            nextBtn.classList.remove('hidden');
-            nextBtn.disabled = false; // Habilitar el botón "Siguiente" una vez seleccionada una opción
-            optionSelected = true;  // Marcar que se ha seleccionado una opción
-
-            if (correct) score++;
-            updateScore();
-        }
-
-        function nextQuestion() {
-            if (optionSelected) {
-                currentQuestion++;
-                if (currentQuestion < quizData.length) {
-                    loadQuestion();
-                } else {
-                    endQuiz();
-                }
-            }
-            updateScore();
-        }
-
-        function endQuiz() {
-            questionEl.textContent = '¡Quiz completado!';
-            optionsEl.innerHTML = '';
-            feedbackEl.textContent = `Tu puntuación final es: ${score} de ${quizData.length}`;
-            feedbackEl.classList.remove('hidden');
-            nextBtn.classList.add('hidden');
-            restartBtn.classList.remove('hidden');
-        }
-
-        function restartQuiz() {
-            currentQuestion = 0;
-            score = 0;
-            optionSelected = false;  // Reiniciar la variable optionSelected
-            loadQuestion();
-            updateScore();
-            restartBtn.classList.add('hidden');
-            feedbackEl.classList.add('hidden');  // Ocultar el feedback al reiniciar
-        }
-
-        function updateScore() {
-            scoreEl.textContent = `Puntuación: ${score} / Pregunta: ${currentQuestion + 1} de ${quizData.length}`;
-        }
-
-        nextBtn.addEventListener('click', nextQuestion);
-        restartBtn.addEventListener('click', restartQuiz);
-
+<script>
+let quizData;
+fetch('./Preguntas.json')
+    .then(response => response.json())
+    .then(data => {
+        quizData = data;
         loadQuestion();
-        updateScore();
-    </script>
+    })
+    .catch(error => console.error('Error al cargar el archivo JSON:', error));
+
+let currentQuestion = 0;
+let score = 0;
+let optionSelected = false;
+const questionEl = document.getElementById('question');
+const optionsEl = document.getElementById('options');
+const feedbackEl = document.getElementById('feedback');
+const nextBtn = document.getElementById('next-btn');
+const restartBtn = document.getElementById('restart-btn');
+const scoreEl = document.getElementById('score');
+const searchInput = document.getElementById('search-input');
+
+function loadQuestion() {
+    const question = quizData[currentQuestion];
+    questionEl.textContent = question.pregunta;
+    optionsEl.innerHTML = '';
+    optionSelected = false;
+    feedbackEl.classList.add('hidden');
+    nextBtn.classList.add('hidden');
+    nextBtn.disabled = true;
+
+    const multipleCorrect = Array.isArray(question.respuesta_correcta);
+    const selectedIndexes = new Set();
+
+    question.opciones.forEach((option, index) => {
+        const button = document.createElement('button');
+        button.textContent = option;
+        button.classList.add('option', 'w-full', 'text-left', 'p-2', 'rounded', 'border', 'border-gray-300', 'hover:bg-gray-100');
+        button.addEventListener('click', () => {
+            if (multipleCorrect) {
+                button.classList.toggle('bg-yellow-200');
+                if (selectedIndexes.has(index)) {
+                    selectedIndexes.delete(index);
+                } else {
+                    selectedIndexes.add(index);
+                }
+            } else {
+                selectOption(index);
+            }
+        });
+        optionsEl.appendChild(button);
+    });
+
+    if (multipleCorrect) {
+        const confirmBtn = document.createElement('button');
+        confirmBtn.textContent = 'Confirmar respuesta';
+        confirmBtn.classList.add('bg-blue-500', 'text-white', 'px-4', 'py-2', 'rounded', 'mt-4', 'hover:bg-blue-600');
+        confirmBtn.addEventListener('click', () => confirmMultiple(selectedIndexes));
+        optionsEl.appendChild(confirmBtn);
+    }
+}
+
+function selectOption(index) {
+    const question = quizData[currentQuestion];
+    const selectedOption = question.opciones[index];
+    const correct = selectedOption === question.respuesta_correcta;
+
+    const options = optionsEl.children;
+    for (let i = 0; i < options.length; i++) {
+        options[i].disabled = true;
+        options[i].classList.remove('correct', 'incorrect');
+        if (i === index) {
+            options[i].classList.add(correct ? 'correct' : 'incorrect');
+        }
+        if (question.opciones[i] === question.respuesta_correcta) {
+            options[i].classList.add('correct');
+        }
+    }
+
+    feedbackEl.textContent = correct ? '¡Correcto!' : `Incorrecto. La respuesta correcta es: ${question.respuesta_correcta}`;
+    feedbackEl.classList.remove('hidden');
+    nextBtn.classList.remove('hidden');
+    nextBtn.disabled = false;
+    optionSelected = true;
+    if (correct) score++;
+    updateScore();
+}
+
+function confirmMultiple(selectedIndexes) {
+    const question = quizData[currentQuestion];
+    const correctAnswers = question.respuesta_correcta.map(ans => ans.trim());
+    const options = optionsEl.children;
+    let allCorrect = true;
+
+    for (let i = 0; i < question.opciones.length; i++) {
+        const isCorrect = correctAnswers.includes(question.opciones[i]);
+        const isSelected = selectedIndexes.has(i);
+
+        options[i].disabled = true;
+        options[i].classList.remove('correct', 'incorrect', 'bg-yellow-200');
+        if (isCorrect) options[i].classList.add('correct');
+        if (isSelected && !isCorrect) allCorrect = false;
+        if (!isSelected && isCorrect) allCorrect = false;
+    }
+
+    feedbackEl.textContent = allCorrect ? '¡Correcto!' : `Incorrecto. Las respuestas correctas son:\n${correctAnswers.join(', ')}`;
+    feedbackEl.classList.remove('hidden');
+    nextBtn.classList.remove('hidden');
+    nextBtn.disabled = false;
+    optionSelected = true;
+    if (allCorrect) score++;
+    updateScore();
+}
+
+function nextQuestion() {
+    if (optionSelected) {
+        currentQuestion++;
+        if (currentQuestion < quizData.length) {
+            loadQuestion();
+        } else {
+            endQuiz();
+        }
+    }
+    updateScore();
+}
+
+function searchQuestion() {
+    const searchValue = parseInt(searchInput.value);
+    if (searchValue >= 1 && searchValue <= quizData.length) {
+        currentQuestion = searchValue - 1;
+        loadQuestion();
+        searchInput.value = '';
+    } else {
+        alert(`Por favor, ingrese un número entre 1 y ${quizData.length}`);
+    }
+    updateScore();
+}
+
+function endQuiz() {
+    questionEl.textContent = '¡Quiz completado!';
+    optionsEl.innerHTML = '';
+    feedbackEl.textContent = `Tu puntuación final es: ${score} de ${quizData.length}`;
+    feedbackEl.classList.remove('hidden');
+    nextBtn.classList.add('hidden');
+    restartBtn.classList.remove('hidden');
+}
+
+function restartQuiz() {
+    currentQuestion = 0;
+    score = 0;
+    optionSelected = false;
+    loadQuestion();
+    updateScore();
+    restartBtn.classList.add('hidden');
+    feedbackEl.classList.add('hidden');
+}
+
+function updateScore() {
+    scoreEl.textContent = `Puntuación: ${score} / Pregunta: ${currentQuestion + 1} de ${quizData.length}`;
+}
+
+nextBtn.addEventListener('click', nextQuestion);
+restartBtn.addEventListener('click', restartQuiz);
+</script>
 </body>
 </html>
