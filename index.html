@@ -6,53 +6,55 @@
     <title>Quiz FSI 2024</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
+        body {
+            background-color: #1e293b;
+            color: #e2e8f0;
+        }
+        .bg-white {
+            background-color: #334155 !important;
+            color: #e2e8f0;
+        }
         .option {
             transition: all 0.3s ease;
             -webkit-tap-highlight-color: transparent;
+            background-color: #475569;
+            color: #e2e8f0;
         }
         .option:hover, .option:active {
             transform: translateY(-2px);
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            background-color: #64748b;
         }
         .correct {
             background-color: #4ade80 !important;
-            color: white !important;
+            color: #1e293b !important;
         }
         .incorrect {
             background-color: #f87171 !important;
-            color: white !important;
+            color: #1e293b !important;
         }
         #next-btn:disabled {
             opacity: 0.5;
             cursor: not-allowed;
         }
-        .search-container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-bottom: 1rem;
-        }
         .search-container input {
-            width: 4rem;
-            padding: 0.25rem;
-            border: 1px solid #e5e7eb;
-            border-radius: 0.25rem 0 0 0.25rem;
+            background-color: #334155;
+            border: 1px solid #94a3b8;
+            color: #e2e8f0;
         }
         .search-container button {
-            padding: 0.25rem 0.5rem;
             background-color: #3b82f6;
             color: white;
-            border-radius: 0 0.25rem 0.25rem 0;
             font-weight: bold;
         }
     </style>
 </head>
-<body class="bg-gradient-to-r from-blue-500 to-purple-600 min-h-screen flex items-center justify-center p-4">
+<body class="min-h-screen flex items-center justify-center p-4">
     <div class="bg-white p-8 rounded-xl shadow-2xl w-full max-w-2xl">
-        <h1 class="text-3xl font-bold mb-6 text-center text-blue-600">Quiz FSI 2024</h1>
-        <div class="search-container">
-            <input type="number" id="search-input" min="1" max="1000" placeholder="Nº">
-            <button id="search-btn" type="button" onclick="searchQuestion()">Buscar</button>
+        <h1 class="text-3xl font-bold mb-6 text-center text-blue-400">Quiz FSI 2024</h1>
+        <div class="search-container flex justify-center items-center mb-4">
+            <input type="number" id="search-input" min="1" max="1000" placeholder="Nº" class="p-2 rounded-l">
+            <button id="search-btn" type="button" onclick="searchQuestion()" class="p-2 rounded-r">Buscar</button>
         </div>
         <div id="question-container" class="mb-6">
             <p id="question" class="text-xl font-semibold mb-4"></p>
