@@ -357,22 +357,6 @@
         "respuesta_correcta": "Verdadero"
     },
     {
-        "pregunta": "El registro de un socio nuevo está dentro del alcance del proceso de Consulta Veterinaria.",
-        "opciones": [
-            "Verdadero",
-            "Falso"
-        ],
-        "respuesta_correcta": "Falso"
-    },
-    {
-        "pregunta": "Según el ciclo de vida de la gestión de procesos de negocios, el proyecto de mejora del proceso de Consulta Veterinaria finaliza con la etapa Implementación del proceso.",
-        "opciones": [
-            "Verdadero",
-            "Falso"
-        ],
-        "respuesta_correcta": "Falso"
-    },
-    {
         "pregunta": "El envío del correo electrónico puede ser representado mediante un símbolo de evento con un mensaje.",
         "opciones": [
             "Verdadero",
@@ -485,38 +469,6 @@
         "respuesta_correcta": "Verdadero"
     },
     {
-        "pregunta": "El seguimiento al animal, luego de la consulta, no está dentro del alcance del proceso de Consulta Veterinaria.",
-        "opciones": [
-            "Verdadero",
-            "Falso"
-        ],
-        "respuesta_correcta": "Falso"
-    },
-    {
-        "pregunta": "Según el ciclo de vida de la gestión de procesos de negocios el Proyecto de Mejora del proceso de Consulta Veterinaria inicia con la etapa Diseño to be.",
-        "opciones": [
-            "Verdadero",
-            "Falso"
-        ],
-        "respuesta_correcta": "Falso"
-    },
-    {
-        "pregunta": "El tiempo de espera en la sala previa a la consulta termina al ser llamados por el Asistente veterinario o Enfermero. Este evento se puede representar con un evento de mensaje.",
-        "opciones": [
-            "Verdadero",
-            "Falso"
-        ],
-        "respuesta_correcta": "Falso"
-    },
-    {
-        "pregunta": "El flujo del proceso de Consulta Veterinaria puede ser bifurcado usando tareas.",
-        "opciones": [
-            "Verdadero",
-            "Falso"
-        ],
-        "respuesta_correcta": "Falso"
-    },
-    {
         "pregunta": "En el modelado de este proceso se debe utilizar el conector de flujo de secuencia para conectar todas las actividades, eventos, compuertas, acotaciones, entradas y salidas.",
         "opciones": [
             "Verdadero",
@@ -539,22 +491,6 @@
             "Falso"
         ],
         "respuesta_correcta": "Falso"
-    },
-    {
-        "pregunta": "La alta disponibilidad del sistema de telepeaje, definida como 99.9% anual, es un ejemplo de un requisito de alcance del proyecto.",
-        "opciones": [
-            "Verdadero",
-            "Falso"
-        ],
-        "respuesta_correcta": "Verdadero"
-    },
-    {
-        "pregunta": "La gestión de procesos en el contexto del telepeaje incluye la optimización de las operaciones para aumentar la eficiencia y efectividad.",
-        "opciones": [
-            "Verdadero",
-            "Falso"
-        ],
-        "respuesta_correcta": "Verdadero"
     },
     {
         "pregunta": "La línea base de los requisitos puede ser modificada sin procedimientos formales.",
@@ -621,14 +557,6 @@
         "respuesta_correcta": "Verdadero"
     },
     {
-        "pregunta": "El pago de peaje mediante uso de TAG y con pago automático es el flujo secundario o alterno del proceso.",
-        "opciones": [
-            "Verdadero",
-            "Falso"
-        ],
-        "respuesta_correcta": "Falso"
-    },
-    {
         "pregunta": "En la jerarquía del proceso planteado, el subproceso es una unidad inferior y el macroproceso es superior.",
         "opciones": [
             "Verdadero",
@@ -683,13 +611,5 @@
             "Falso"
         ],
         "respuesta_correcta": "Verdadero"
-    },
-    {
-        "pregunta": "La línea base de los requisitos puede ser modificada sin procedimientos formales.",
-        "opciones": [
-            "Verdadero",
-            "Falso"
-        ],
-        "respuesta_correcta": "Falso"
     }
 ]
