@@ -373,14 +373,6 @@
         "respuesta_correcta": "Verdadero"
     },
     {
-        "pregunta": "El Plan de tratamiento del animal es una salida en el proceso.",
-        "opciones": [
-            "Verdadero",
-            "Falso"
-        ],
-        "respuesta_correcta": "Verdadero"
-    },
-    {
         "pregunta": "No se deben crear carriles para representar áreas o entidades que realizan solo tareas automáticas.",
         "opciones": [
             "Verdadero",
